@@ -1,0 +1,19 @@
+body {
+  background-color: rgb(255, 249, 251);
+}
+.item__ourStory {
+  display: flex;
+  height: 30vh;
+  flex-direction: row;
+}
+.item__ourStory div.item__content {
+  flex: 1;
+  margin-left: 10vw;
+  display: block;
+  text-align: justify;
+  margin-right: 20px;
+}
+.item__ourStory div.item__img img {
+  height: 100%;
+  margin-right: 20vw;
+}
