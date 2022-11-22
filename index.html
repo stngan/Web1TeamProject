@@ -6,16 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Saigon Side By Side</title>
     <link rel="stylesheet" href="./style.css">
+
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Racing+Sans+One&family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- aos -->
+    <!-- CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <style>
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #ffffff;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: rgb(196, 196, 196);
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: rgb(196, 196, 196);  
+        }
+    </style>
 </head>
 <body>
-
-
-    <nav class="navbarHeader">
+    
+    <nav class="navbarHeader" >
         <div class="navbarHeader__left">
             <img src="./assets/image/logo.svg" alt="">
 
             <form class="searchbox">
-                <input type="text" placeholder="sài gòn đi đâu..">
+                <input type="text" placeholder="sài gòn đi đâu hôm nay..">
 
                 <button type="submit" >
                     <ion-icon name="search-outline" style="color: white; font-size: 1rem;"></ion-icon>
@@ -25,37 +53,59 @@
             
         </div>
 
-        <div class="navbarHeader_right">
+        <button class="mobile-nav-toggle">
+            <box-icon name='menu-alt-right' color="#F5C909" size="3rem"></box-icon>
+        </button>
+
+        <div class="navbarHeader_right menu">
+            <button class="sidebarClose" aria-controls="menu-links" >
+                <ion-icon name="close-sharp" style="font-size: 2.5rem; color: #ffffff; z-index: 2000;"></ion-icon>
+            </button>
+
             <ul class="menu-links">
-                <li>
-                    <a href="#">
+                <li 
+                    data-aos="fade-left"
+                    data-aos-delay="0"
+                    data-aos-duration="500">
+                    <a style="color:#f5c909 ;" href="./index.html">
                         Home
                     </a>
                 </li>
-                <li>
-                    <a href="#">
-                        About Us
+                <li 
+                    data-aos="fade-left"
+                    data-aos-delay="100"
+                    data-aos-duration="500">
+                    <a href="/includes/aboutUS.html">
+                        About
                     </a>
                 </li>
-                <li>
+                <li
+                    data-aos="fade-left"
+                    data-aos-delay="200"
+                    data-aos-duration="500">
                     <a href="#">
-                        Help
+                        Support
                     </a>
                 </li>
-                <li>
+                <li 
+                    data-aos="fade-left"
+                    data-aos-delay="300"
+                    data-aos-duration="500"
+                    >
                     <a href="#">
                         Sign Up
                     </a>
                 </li>
-                <li>
+                <li
+                    data-aos="fade-left"
+                    data-aos-delay="400"
+                    data-aos-duration="500">
                     <a href="#" class="btnLogin">
                         Log In
                     </a>
                 </li>
             </ul>
-
         </div>
-
     </nav>
 
     <div class="container">
@@ -65,30 +115,41 @@
 
             </div>
     
-            <div class="welcome__content">
-                <h1>People's Committee building</h1>
-                <p>Ho Chi Minh City Hall, officially called the Ho Chi Minh City People's Committee Head Office is the city hall of Ho Chi Minh City, Vietnam.
+            <div class="welcome__content"  >
+                <h1
+                    data-aos="fade-up"
+                    data-aos-duration="500">
+                    People's Committee building
+                </h1>
+                <p  
+                    data-aos="fade-up"
+                    data-aos-duration="1000">
+                    Ho Chi Minh City Hall, officially called the Ho Chi Minh City People's Committee Head Office is the city hall of Ho Chi Minh City, Vietnam.
                 </p>
     
-                <a href="#">
-                    <span>EXPLORER NOW</span>
+                <a href="#"
+                    data-aos="fade-down"
+                    data-aos-delay="1500"
+                    data-aos-duration="1000">
+                    <span>Explore Now</span>
                 </a>
             </div>
 
             <div class="welcome__parallax--control">
                 <ion-icon name="chevron-forward-circle-outline"></ion-icon>
             </div>
-    
-    
-    
-            
-    
         </div>
-
     </div>
 
     
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+
+    <script src="./js/general.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
