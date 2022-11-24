@@ -4,44 +4,56 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>About SGS</title>
     <link rel="stylesheet" href="/css/aboutUs.css">
     <link rel="stylesheet" href="/style.css">
-
+    <style>
+      ::-webkit-scrollbar {
+          width: 10px;
+      }
+      ::-webkit-scrollbar-track {
+          background: #ffffff;
+      }
+      ::-webkit-scrollbar-thumb {
+          background: rgb(253, 225, 10);
+      }
+      ::-webkit-scrollbar-thumb:hover {
+          background: rgb(196, 196, 196);  
+      }
+  </style>
 
   </head>
   <body>
     
+
     <nav class="navbarHeader">
       <div class="navbarHeader__left">
-          <img src="/assets/image/logo.svg" alt="">
+        <img src="/assets/image/logo.svg" alt="">
 
-          <form class="searchbox">
-              <input type="text" placeholder="sài gòn đi đâu..">
+        <form class="searchbox">
+          <input type="text" placeholder="sài gòn đi đâu..">
 
-              <button type="submit" >
-                  <ion-icon name="search-outline" style="color: white; font-size: 1rem;"></ion-icon>
-              </button>              
-
-          </form>
-          
+          <button type="submit" >
+              <ion-icon name="search-outline" style="color: white; font-size: 1rem;"></ion-icon>
+          </button>              
+        </form>
       </div>
-
-      <div class="navbarHeader_right">
-          <ul class="menu-links">
+      <div class="navbarHeader_right menu">
+          <i class="bx bx-x sidebarClose"></i>
+            <ul class="menu-links">
               <li>
                   <a href="/index.html">
                       Home
                   </a>
               </li>
               <li>
-                  <a style="color: #f5c909;" href="#">
-                      About Us
+                  <a href="/index.html" style="color:#f5c909;">
+                      About
                   </a>
               </li>
               <li>
                   <a href="#">
-                      Help
+                      Support
                   </a>
               </li>
               <li>
@@ -54,10 +66,8 @@
                       Log In
                   </a>
               </li>
-          </ul>
-
+            </ul>
       </div>
-
     </nav>
 
     <div class="container">
