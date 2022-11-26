@@ -1,0 +1,102 @@
+[
+    {
+        "userID": 1,
+        "userName":"abc@xyz",
+        "passWord": "123zbc",
+        "name": "Nguyễn Văn A",
+        "email": "abc@xyz",
+        "phone": "093131212",
+        "avatar": "avt1.img"
+        
+    },
+    {
+        "userID": 2,
+        "userName":"abc123",
+        "passWord": "123zbc",
+        "name": "Nguyễn Văn b",
+        "email": "abc@xyz",
+        "phone": "093131212",
+        "avatar": "avt2.img"
+        
+    },
+    {
+        "userID": 3,
+        "userName":"abcdas",
+        "passWord": "123zbc",
+        "name": "Nguyễn Văn c",
+        "email": "abc@xyz",
+        "phone": "093131212",
+        "avatar": "avt3.img"
+        
+    },
+    {
+        "userID": 4,
+        "userName":"abcvcd",
+        "passWord": "123zbc",
+        "name": "Nguyễn Văn d",
+        "email": "abc@xyz",
+        "phone": "093131212",
+        "avatar": "avt4.img"
+        
+    },
+    {
+        "userID": 5,
+        "userName":"abc@xyz",
+        "passWord": "123zbc",
+        "name": "Nguyễn Văn f",
+        "email": "abc@xyz",
+        "phone": "093131212",
+        "avatar": "avt5.img"
+        
+    },
+    {
+        "userID": 6,
+        "userName":"abc@xyz",
+        "passWord": "123zbc",
+        "name": "Nguyễn Văn e",
+        "email": "abc@xyz",
+        "phone": "093131212",
+        "avatar": "avt6.img"
+        
+    },
+    {
+        "userID": 7,
+        "userName":"abc12@xyz",
+        "passWord": "123zbc",
+        "name": "Nguyễn Văn g",
+        "email": "abc@xyz",
+        "phone": "093131212",
+        "avatar": "avt7.img"
+        
+    },
+    {
+        "userID": 8,
+        "userName":"abc23@xyz",
+        "passWord": "123zbc",
+        "name": "Nguyễn Văn h",
+        "email": "abc@xyz",
+        "phone": "093131212",
+        "avatar": "avt1.img"
+        
+    },
+    {
+        "userID": 9,
+        "userName":"ab9c@xyz",
+        "passWord": "123zbc",
+        "name": "Nguyễn Văn k",
+        "email": "abc@xyz",
+        "phone": "093131212",
+        "avatar": "avt1.img"
+        
+    },
+    {
+        "userID": 10,
+        "userName":"abs1c@xyz",
+        "passWord": "123zbc",
+        "name": "Nguyễn Văn l",
+        "email": "abc@xyz",
+        "phone": "093131212",
+        "avatar": "avt10.img"
+        
+    }
+]
