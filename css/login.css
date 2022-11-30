@@ -93,7 +93,7 @@ input{
 ::placeholder{
     color: #e95858;
 }
-button{
+.button{
     margin-top: 30px;
     width: 100%;
     background-color: #ffffff;

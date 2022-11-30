@@ -20,7 +20,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- JS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
+    <script src="/java.js" defer></script>
     <style>
         ::-webkit-scrollbar {
             width: 10px;
@@ -36,7 +36,7 @@
         }
     </style>
 </head>
-<body>
+<body onload="load()">
     
     <nav class="navbarHeader" >
         <div class="navbarHeader__left">
@@ -92,7 +92,7 @@
                     data-aos-delay="300"
                     data-aos-duration="500"
                     >
-                    <a href="#">
+                    <a id="signUp" href="#">
                         Sign Up
                     </a>
                 </li>
@@ -100,8 +100,15 @@
                     data-aos="fade-left"
                     data-aos-delay="400"
                     data-aos-duration="500">
-                    <a href="#" class="btnLogin">
+                    <a href="./includes/login.html" class="btnLogin" id="Login">
                         Log In
+                    </a>
+                </li>
+                <li data-aos="fade-left"
+                    data-aos-delay="400"
+                    data-aos-duration="500" id="acc">
+                    <a href="#" class="account" id="account">
+                        <img src="" alt="" id="accImg">
                     </a>
                 </li>
             </ul>
