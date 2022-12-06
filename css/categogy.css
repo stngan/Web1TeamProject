@@ -28,7 +28,9 @@ body {
     display: flex;
     flex-direction: column;
 }
-
+.container {
+    background-color: #FBFBFB;
+}
 /* header */
 .navbarHeader {
     display: flex;

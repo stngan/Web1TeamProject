@@ -31,10 +31,11 @@
 }
 
 .lastestSection {
-  margin: 40px 0;
+  padding: 30px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #f3f3f3ce;
 }
 .lastestHeaderComponent {
   display: flex;
@@ -160,13 +161,17 @@
 .author-avatar {
   width: 30px;
   height: 30px;
-  /* aspect-ratio: 1; */
+  aspect-ratio: 1;
   margin-right: 10px;
+  overflow: hidden;
+  border-radius: 50%;
 }
 .author-avatar img {
   width: 100%;
-  border-radius: 100%;
-  background-size: cover;
+  /* border-radius: 100%; */
+  background-size: contain;
+  background-position: center center;
+  scale: 1.5;
 }
 .author-name {
   font-weight: 600;
