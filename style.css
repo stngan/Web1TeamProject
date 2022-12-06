@@ -1,7 +1,17 @@
 :root {
     --primary-color: #F5C909;
+    --container-bgcolor:#fffdf8;
+    --categorymenu-bgcolor: #fcfcfcce;
+
+    --star-size: 60px;
+    --star-color: #fff;
+    --star-background: #fc0;
 
 
+    
+}
+.heading {
+    font-family: 'Merriweather', serif;
 }
 * {
     margin: 0;
@@ -12,15 +22,23 @@ a {
     text-decoration: none !important;
     cursor: pointer;
 }
+.btn {
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
 body {
     font-family: 'Open Sans', sans-serif;
-    /* font-family: 'Racing Sans One'; */
-    /* font-family: 'Raleway', sans-serif; */
     font-size: 16px;
     min-height: 100%;
+    width: 100%;
 
     display: flex;
     flex-direction: column;
+}
+.main-container {
+    /* background: #fcfcfcce; */
+    background: #f3f3f3ce;
 }
 
 .navbarHeader {
@@ -179,7 +197,7 @@ body {
     .navbarHeader{
         flex-direction: column;
         background-color: #FFFFFF10;
-        backdrop-filter: blur(5px) saturate(150%);
+        backdrop-filter: blur(20px) saturate(150%);
         padding: 20px 0;
     }
     .navbarHeader_right {
@@ -394,3 +412,67 @@ body {
     background-size: 100%;
     transition: background 0s;
 }   
+
+/* category menu */
+.categorySection {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    padding: 40px 100px 90px 100px;
+    background: var(--categorymenu-bgcolor);
+}
+.categoryButtonComponent {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 40px;
+}
+.categoryItemComponent{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.btnAllCategory {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border-radius: 5px;
+    padding: 7px 20px;
+    font-size: 0.9rem;
+
+}
+
+.categoryItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+
+    border-radius: 5px;
+
+    padding: 20px;
+
+    font-weight: 500;
+    color: #252525;
+    background: #FFF;
+
+}
+.categoryItem:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    transform: translateY(-5px) ;
+    transition: all .3s;
+
+    cursor: pointer;
+}
+.categorySelect {
+    border: 1px solid var(--primary-color);
+    background: rgb(255, 254, 244);
+}
+.categoryItem img {
+    width: 80%;
+    padding-bottom: 15px;
+}
+/* category menu */

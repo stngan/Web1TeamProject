@@ -11,8 +11,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Merriweather:wght@300;400;700&family=Open+Sans:wght@400;500;600;700;800&family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="/css/categogy.css">
+    <link rel="stylesheet" href="/css/categoryItem.css">
 
-    
+    <!-- swiper -->
+    <link rel="stylesheet" href="/css/swiper-bundle.min.css">
+    <script src="/js/swiper-bundle.min.js" defer></script>
+    <script src="/js/swiper.js" defer></script>
+
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
@@ -133,61 +138,345 @@
                 </div>
             </div>
         </div>
+        
+
+        <div class="lastestSection">
+            <div class="lastestHeaderComponent" style="font-size: 1.25rem;">
+                <hr class="lasestTopbar">
+                <p class="lastestHeader heading">Explore lastest destinations</p>
+                <p class="lastestDesc">Explore your suitable and dream places around this city. Here you can find your right destination.</p>
+            </div>
+
+            <div class="slide-container swiper">
+                <div class="slide-content">
+                    <div class="card-wrapper swiper-wrapper">
+
+                        <div class="card swiper-slide">
+                            <div class="card__image">
+                                <img src="https://firstsight.vn/wp-content/uploads/2022/07/z3592320041981_77afa05b705f580bc6aecb6ca617a098-533x400.jpg" alt="">
+                            </div>
+                            <div class="card__content">
+                                <p class="card__content--title">Worskshop nến thơm First Sight</p>
+                                <p class="card__content--desc">Với gói Workshop nến thơm này các bạn sẽ được giảng dạy chi tiết về công thức các loại mùi hương, pha màu. Sẽ đóng vai làm một người thợ đổ nến chuyên nghiệp như nhân viên tại First Sight.</p>
+                                <div class="card__content--hashtag">
+                                    <span>#Adventure</span>
+                                    <span>#Q.Phú Nhuận</span>
+                                </div>
+                                <div class="card__content--author">
+                                    <div class="author-info">
+                                        <div class="author-avatar">
+                                            <img src="./assets/avt2.jpg" alt="">
+                                        </div>
+                                        <div>
+                                            <div class="author-name">Song Ngân</div>
+                                            <div class="time-create">
+                                                8PM 5/12/2022
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="author-rating">
+                                        <p>Rating</p>
+                                        <span class="Stars" style="--rating: 4.5;">
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="card swiper-slide">
+                            <div class="card__image">
+                                <img src="https://scontent.fsgn5-15.fna.fbcdn.net/v/t1.6435-9/104533058_143330014030380_5367894811800449298_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=b9115d&_nc_ohc=OtOeXHIcvekAX_VgkZe&tn=vuXqooJZQDmiEJzw&_nc_ht=scontent.fsgn5-15.fna&oh=00_AfBkjIo6Kr2nXnK-lipSEwo265WAuo4_2cvo6L03iK4Juw&oe=63B6D4ED" alt="">
+                            </div>
+                            <div class="card__content">
+                                <p class="card__content--title">Nông trại mua sắm The Box Market</p>
+                                <p class="card__content--desc">Ai thích săn đồ độc lạ hay mấy hàng handmade thì mình highly recommend ở đây nha. Có free vẽ Henna, tết tóc Bohemian và Nail luôn</p>
+                                <div class="card__content--hashtag">
+                                    <span>#Shopping</span>
+                                    <span>#Q.Phú Nhuận</span>
+                                </div>
+                                <div class="card__content--author">
+                                    <div class="author-info">
+                                        <div class="author-avatar">
+                                            <img src="./assets/avt2.jpg" alt="">
+                                        </div>
+                                        <div>
+                                            <div class="author-name">Kim Hoàng</div>
+                                            <div class="time-create">
+                                                9AM 6/12/2022
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="author-rating">
+                                        <p>Rating</p>
+                                        <span class="Stars" style="--rating: 3.5;">
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="card swiper-slide">
+                            <div class="card__image">
+                                <img src="https://scontent.fsgn5-12.fna.fbcdn.net/v/t39.30808-6/309710099_491482592866896_5591043872077205142_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5cd70e&_nc_ohc=5hYALSUcV6gAX94_Xui&_nc_ht=scontent.fsgn5-12.fna&oh=00_AfAvaDjzWj-fLeblbamuUx8LSjtcQwsJEIEvuQQ73KBejg&oe=63952FFC" alt="">
+                            </div>
+                            <div class="card__content">
+                                <p class="card__content--title">WATER BUS ĐỘC NHẤT VÔ NHỊ Ở SÀI GÒN</p>
+                                <p class="card__content--desc">Tuyến buýt đường sông có lộ trình dài gần 11 km. Đây là tuyến Xe bus đường sông bắt đầu từ Bến Bạch Đằng (Quận 1, TP HCM) đi qua 4 bến và kết thúc ở Bến Linh Đông ( Quận Thủ Đức ). Hành trình di chuyển toàn chặng khoảng 30 phút.</p>
+                                <div class="card__content--hashtag">
+                                    <span>#Transport</span>
+                                    <span>#Q.1</span>
+                                </div>
+                                <div class="card__content--author">
+                                    <div class="author-info">
+                                        <div class="author-avatar">
+                                            <img src="./assets/avt2.jpg" alt="">
+                                        </div>
+                                        <div>
+                                            <div class="author-name">Song Ngân</div>
+                                            <div class="time-create">
+                                                8PM 5/12/2022
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="author-rating">
+                                        <p>Rating</p>
+                                        <span class="Stars" style="--rating: 4.0;">
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="card swiper-slide">
+                            <div class="card__image">
+                                <img src="./assets/image/building.jpg" alt="">
+                            </div>
+                            <div class="card__content">
+                                <p class="card__content--title">Worskshop nến thơm First Sight</p>
+                                <p class="card__content--desc">Với gói Workshop nến thơm này các bạn sẽ được giảng dạy chi tiết về công thức các loại mùi hương, pha màu. Sẽ đóng vai làm một người thợ đổ nến chuyên nghiệp như nhân viên tại First Sight.</p>
+                                <div class="card__content--hashtag">
+                                    <span>#Adventure</span>
+                                    <span>#Q.Phú Nhuận</span>
+                                </div>
+                                <div class="card__content--author">
+                                    <div class="author-info">
+                                        <div class="author-avatar">
+                                            <img src="./assets/avt2.jpg" alt="">
+                                        </div>
+                                        <div>
+                                            <div class="author-name">Song Ngân</div>
+                                            <div class="time-create">
+                                                8PM 5/12/2022
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="author-rating">
+                                        <p>Rating</p>
+                                        <span class="Stars" style="--rating: 2.3;">
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="card swiper-slide">
+                            <div class="card__image">
+                                <img src="./assets/image/building.jpg" alt="">
+                            </div>
+                            <div class="card__content">
+                                <p class="card__content--title">nông trại The Box Market</p>
+                                <p class="card__content--desc">Với gói Workshop nến thơm này các bạn sẽ được giảng dạy chi tiết về công thức các loại mùi hương, pha màu. Sẽ đóng vai làm một người thợ đổ nến chuyên nghiệp như nhân viên tại First Sight.</p>
+                                <div class="card__content--hashtag">
+                                    <span>#Adventure</span>
+                                    <span>#Q.Phú Nhuận</span>
+                                </div>
+                                <div class="card__content--author">
+                                    <div class="author-info">
+                                        <div class="author-avatar">
+                                            <img src="./assets/avt2.jpg" alt="">
+                                        </div>
+                                        <div>
+                                            <div class="author-name">Song Ngân</div>
+                                            <div class="time-create">
+                                                8PM 5/12/2022
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="author-rating">
+                                        <p>Rating</p>
+                                        <span class="Stars" style="--rating: 2.3;">
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+
+                       
+                       
+                        
+                    </div>
+                </div>
+    
+                <div class="swiper-button-next swiper-navBtn"></div>
+                <div class="swiper-button-prev swiper-navBtn"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+
 
 
         <div class="filterSection">
 
-            <div class="filterComponent">
+            <form class="filterComponent">
 
-                <div class="filter_location">
-                    <p>Location</p>
+                <div class="filterItem filter_location">
+                    <label>Location</label>
+                    <input type="text" placeholder="District you want to go?">
                     
                 </div>
                 
-                <div class="filter_pricefrom">
-                    <p>Price From</p>
-    
-    
-               
-    
-    
+                <div class="filterItem filter_pricefrom">
+                    <label>Price From</label>
+                    <input type="number" name="" id="" placeholder="Min price you desire?">
+                    
                 </div>
-                <div class="filter_priceto">
-                    <p>To</p>
-    
-    
-               
-    
+                <div class="filterItem filter_priceto">
+                    <label>To</label>
+                    <input type="number" name="" id="" placeholder="Max price you desire?">
     
                 </div>
 
+                
+                
+                <div class="filterItem filter_sort">
+                    <label>Sort by</label>
+                    
+                    <select>
+                        <option>Liên quan nhất</option>
+                        <option>Đặt nhiều nhất</option>
+                        <option>Đánh giá cao nhất</option>
+                        <option>Giá (thấp đến cao)</option>
+                    </select>
+                    
+                </div>
+                <button type="submit" class="btn btnSort">
+                    <ion-icon name="search-outline" style="color: #FFF; font-size: 1.5rem;"></ion-icon>
+                </button>              
 
-                <div class="filter_sort">
-                    <p>Sắp xếp theo</p>
+                <div class="filterItem">
+    
+                </div>
+                
+            </form>
 
-                    <div class="sort_container">
-                        <div class="sort_title">
+        </div>
 
+        <div class="categoryCardSection eatdrink">
+            <div class="lastestHeaderComponent" style="font-size: 1.25rem;">
+                <hr class="lasestTopbar" style="background-color: var(--eatdrink-color);">
+                <p class="lastestHeader heading">Eat & Drink</p>
+            </div>
+
+            <div class="card-wrapper swiper-wrapper">
+
+                <div class="card swiper-slide">
+                    <div class="card__image">
+                        <img src="./assets/image/building.jpg" alt="">
+                    </div>
+                    <div class="card__content">
+                        <p class="card__content--title">Worskshop nến thơm First Sight</p>
+                        <p class="card__content--desc">Với gói Workshop nến thơm này các bạn sẽ được giảng dạy chi tiết về công thức các loại mùi hương, pha màu. Sẽ đóng vai làm một người thợ đổ nến chuyên nghiệp như nhân viên tại First Sight.</p>
+                        <div class="card__content--hashtag">
+                            <span>#EatDrink</span>
+                            <span>#Q.Phú Nhuận</span>
                         </div>
-
-                        <div class="sort_menu">
-
-                            <ul class="dropdown_list">
-                                <li data-type="" data-spm-module="SortBy?trg=manual&amp;ext={&quot;SortBy&quot;:&quot;Liên quan nhất&quot;}" data-spm-virtual-item="__virtual" class="selected">Liên quan nhất</li>
-                                
-                                <li data-type="participants" data-spm-module="SortBy?trg=manual&amp;ext={&quot;SortBy&quot;:&quot;Đặt nhiều nhất&quot;}" data-spm-virtual-item="__virtual" class="">Đặt nhiều nhất</li>
-                                
-                                <li data-type="review_score" data-spm-module="SortBy?trg=manual&amp;ext={&quot;SortBy&quot;:&quot;Đánh giá cao nhất&quot;}" data-spm-virtual-item="__virtual" class="">Đánh giá cao nhất</li>
-                                
-                                <li data-type="price" data-spm-module="SortBy?trg=manual&amp;ext={&quot;SortBy&quot;:&quot;Giá (thấp đến cao)&quot;}" data-spm-virtual-item="__virtual" class="">Giá (thấp đến cao)</li>
-                                
-                                <li data-type="publish_time" data-spm-module="SortBy?trg=manual&amp;ext={&quot;SortBy&quot;:&quot;Dịch Vụ Mới Nổi Bật&quot;}" data-spm-virtual-item="__virtual" class="">Dịch Vụ Mới Nổi Bật</li>
-                            </ul>
+                        <div class="card__content--author">
+                            <div class="author-info">
+                                <div class="author-avatar">
+                                    <img src="./assets/avt2.jpg" alt="">
+                                </div>
+                                <div>
+                                    <div class="author-name">Song Ngân</div>
+                                    <div class="time-create">
+                                        8PM 5/12/2022
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="author-rating">
+                                <p>Rating</p>
+                                <span class="Stars" style="--rating: 4.5;">
+                                </span>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <div class="card swiper-slide">
+                    <div class="card__image">
+                        <img src="./assets/image/building.jpg" alt="">
+                    </div>
+                    <div class="card__content">
+                        <p class="card__content--title">Worskshop nến thơm First Sight</p>
+                        <p class="card__content--desc">Với gói Workshop nến thơm này các bạn sẽ được giảng dạy chi tiết về công thức các loại mùi hương, pha màu. Sẽ đóng vai làm một người thợ đổ nến chuyên nghiệp như nhân viên tại First Sight.</p>
+                        <div class="card__content--hashtag">
+                            <span>#EatDrink</span>
+                            <span>#Q.Phú Nhuận</span>
+                        </div>
+                        <div class="card__content--author">
+                            <div class="author-info">
+                                <div class="author-avatar">
+                                    <img src="./assets/avt2.jpg" alt="">
+                                </div>
+                                <div>
+                                    <div class="author-name">Song Ngân</div>
+                                    <div class="time-create">
+                                        8PM 5/12/2022
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="author-rating">
+                                <p>Rating</p>
+                                <span class="Stars" style="--rating: 4.5;">
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="card__image">
+                        <img src="./assets/image/building.jpg" alt="">
+                    </div>
+                    <div class="card__content">
+                        <p class="card__content--title">Worskshop nến thơm First Sight</p>
+                        <p class="card__content--desc">Với gói Workshop nến thơm này các bạn sẽ được giảng dạy chi tiết về công thức các loại mùi hương, pha màu. Sẽ đóng vai làm một người thợ đổ nến chuyên nghiệp như nhân viên tại First Sight.</p>
+                        <div class="card__content--hashtag">
+                            <span>#EatDrink</span>
+                            <span>#Q.Phú Nhuận</span>
+                        </div>
+                        <div class="card__content--author">
+                            <div class="author-info">
+                                <div class="author-avatar">
+                                    <img src="./assets/avt2.jpg" alt="">
+                                </div>
+                                <div>
+                                    <div class="author-name">Song Ngân</div>
+                                    <div class="time-create">
+                                        8PM 5/12/2022
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="author-rating">
+                                <p>Rating</p>
+                                <span class="Stars" style="--rating: 4.5;">
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
             </div>
 
+            
         </div>
     </div>
 
