@@ -13,7 +13,7 @@ html{
     max-height: 100%;
     /* min-height: 100vh; */
     background-color: aqua;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)), url(image/support.jpg);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)), url(../assets/image/support.jpg);
     opacity: 0.9;
     background-position: center;
     background-size: cover;
