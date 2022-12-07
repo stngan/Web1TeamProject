@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>test</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./css/categoryItem.css" />
+
+
+    <!-- icon -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet" />
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Racing+Sans+One&family=Raleway:wght@400;500;700&display=swap"
+      rel="stylesheet" />
+
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="/js/java.js" defer></script>
+
+    <style>
+      ::-webkit-scrollbar {
+        width: 10px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #ffffff;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: rgb(196, 196, 196);
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: rgb(196, 196, 196);
+      }
+    </style>
+  </head>
+  <body onload="load()">
+    <nav class="navbarHeader">
+      <div class="navbarHeader__left">
+        <img src="./assets/image/logo.svg" alt="" />
+
+        <form class="searchbox">
+          <input type="text" placeholder="sài gòn đi đâu hôm nay.." />
+
+          <button type="submit">
+            <ion-icon
+              name="search-outline"
+              style="color: white; font-size: 1rem"></ion-icon>
+          </button>
+        </form>
+      </div>
+
+      <button class="mobile-nav-toggle">
+        <box-icon name="menu-alt-right" color="#F5C909" size="3rem"></box-icon>
+      </button>
+
+      <div class="navbarHeader_right menu">
+        <button class="sidebarClose" aria-controls="menu-links">
+          <ion-icon
+            name="close-sharp"
+            style="font-size: 2.5rem; color: #ffffff; z-index: 2000"></ion-icon>
+        </button>
+
+        <ul class="menu-links">
+          <li data-aos="fade-left" data-aos-delay="0" data-aos-duration="500">
+            <a style="color: #f5c909" href="./index.html"> Home </a>
+          </li>
+          <li data-aos="fade-left" data-aos-delay="100" data-aos-duration="500">
+            <a href="/includes/aboutUS.html"> About </a>
+          </li>
+          <li data-aos="fade-left" data-aos-delay="200" data-aos-duration="500">
+            <a href="./includes/support.html"> Support </a>
+          </li>
+          <li data-aos="fade-left" data-aos-delay="300" data-aos-duration="500">
+            <a id="signUp" href="./includes/signup.html"> Sign Up </a>
+          </li>
+
+          <li data-aos="fade-left" data-aos-delay="400" data-aos-duration="500">
+            <a href="./includes/login.html" class="btnLogin" id="Login">
+              Log In
+            </a>
+          </li>
+          <li
+            data-aos="fade-left"
+            data-aos-delay="400"
+            data-aos-duration="500"
+            id="acc">
+            <a href="#" class="account" id="account">
+              <img src="" alt="" id="accImg" />
+            </a>
+          </li>
+          <li data-aos="fade-left" data-aos-delay="300" data-aos-duration="500">
+            <a onclick="logOut()" id="logOut" class="logOut" href="#">
+              Log Out
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="welcome">
+        <div
+          class="welcome__parallax"
+          style="background-image: url(/assets/image/songsaigon.webp)"></div>
+
+        <div class="welcome__content">
+          <h1 data-aos="fade-up" data-aos-duration="500">
+            People's Committee building
+          </h1>
+          <p data-aos="fade-up" data-aos-duration="1000">
+            Ho Chi Minh City Hall, officially called the Ho Chi Minh City
+            People's Committee Head Office is the city hall of Ho Chi Minh City,
+            Vietnam.
+          </p>
+
+          <a
+            href="#"
+            data-aos="fade-down"
+            data-aos-delay="1500"
+            data-aos-duration="1000">
+            <span>Explore Now</span>
+          </a>
+        </div>
+
+        <div class="welcome__parallax--control">
+          <ion-icon name="chevron-forward-circle-outline"></ion-icon>
+        </div>
+      </div>
+
+      <div class="categorySection">
+        <div class="categoryButtonComponent">
+          <button class="btn btnAllCategory">
+            <img src="/assets/category/btnAllCategory.svg" alt="" />
+            <p>All Categogy</p>
+          </button>
+        </div>
+
+        <div class="categoryItemComponent">
+          <a class="categoryItem" href="./includes/categories/1-eatdrink.html">
+            <img src="/assets/category/iconEatDrink.svg" alt="" />
+            <p>Eat & Drink</p>
+          </a>
+
+          <a class="categoryItem" href="./includes/categories/2-shopping.html">
+            <img src="/assets/category/iconShopping.svg" alt="" />
+            <p>Shopping</p>
+          </a>
+
+          <a class="categoryItem" href="./includes/categories/3-hotel.html">
+            <img src="/assets/category/iconHotel.svg" alt="" />
+            <p>Hotels</p>
+          </a>
+          <a class="categoryItem" href="./includes/categories/4-adventure.html">
+            <img src="/assets/category/iconAdventure.svg" alt="" />
+            <p>Adventures</p>
+          </a>
+          <a class="categoryItem" href="./includes/categories/5-transport.html">
+            <img src="/assets/category/iconTransport.svg" alt="" />
+            <p>Transport</p>
+          </a>
+          <a class="categoryItem" href="./includes/categories/6-tour.html">
+            <img src="/assets/category/iconTour.svg" alt="" />
+            <p>Tours</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="accumulation-type__wrap">
+        <div
+          class="swiper-container swiper-type swiper--dots swiper--nav swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events">
+          <div
+            class="swiper-wrapper"
+            id="swiper-wrapper-248d610c613a3724e"
+            aria-live="polite"
+            style="
+              transform: translate3d(0px, 0px, 0px);
+              transition-duration: 0ms;
+            ">
+            <div
+              class="swiper-slide swiper__item aos-init aos-animate swiper-slide-active"
+              data-aos="fade-up"
+              role="group"
+              aria-label="1 / 5"
+              style="width: 380.667px; margin-right: 24px">
+              <a href="javascript:void(0)"
+                ><div class="box-img">
+                  <span class="imgWrap img--cover pt_56"
+                    ><span class="imgWrap-item"
+                      ><img
+                        data-src="https://portal-cdn.smobgame.com/2/banner/65/633eb26ae7361.jpg"
+                        class="img-fluid lazyloaded"
+                        title="Gói tích luỹ Kỳ hạn 5 tháng"
+                        alt="Tikop - Gói tích luỹ Kỳ hạn 5 tháng"
+                        src="https://portal-cdn.smobgame.com/2/banner/65/633eb26ae7361.jpg" /></span
+                  ></span>
+                </div>
+                <div class="box-txt">
+                  <h3 class="rs name">Gói tích luỹ Kỳ hạn 5 tháng</h3>
+                  <div class="des">
+                    Gói tích luỹ kỳ hạn 5 tháng lợi nhuận mục tiêu 8.5%/năm
+                  </div>
+                </div></a
+              >
+            </div>
+            <div
+              class="swiper-slide swiper__item aos-init aos-animate swiper-slide-next"
+              data-aos="fade-up"
+              data-aos-delay='"50"'
+              role="group"
+              aria-label="2 / 5"
+              style="width: 380.667px; margin-right: 24px">
+              <a href="javascript:void(0)"
+                ><div class="box-img">
+                  <span class="imgWrap img--cover pt_56"
+                    ><span class="imgWrap-item"
+                      ><img
+                        data-src="https://portal-cdn.smobgame.com/2/banner/16/637596a6655ff.jpg"
+                        class="img-fluid lazyloaded"
+                        title="Gói tích lũy kỳ hạn 2 tuần"
+                        alt="Tikop - Gói tích lũy kỳ hạn 2 tuần"
+                        src="https://portal-cdn.smobgame.com/2/banner/16/637596a6655ff.jpg" /></span
+                  ></span>
+                </div>
+                <div class="box-txt">
+                  <h3 class="rs name">Gói tích lũy kỳ hạn 2 tuần</h3>
+                  <div class="des">
+                    Gói tích lũy kỳ hạn 2 tuần lợi nhuận mục tiêu 7.0%/năm
+                  </div>
+                </div></a
+              >
+            </div>
+            <div
+              class="swiper-slide swiper__item aos-init aos-animate"
+              data-aos="fade-up"
+              data-aos-delay='"100"'
+              role="group"
+              aria-label="3 / 5"
+              style="width: 380.667px; margin-right: 24px">
+              <a href="javascript:void(0)"
+                ><div class="box-img">
+                  <span class="imgWrap img--cover pt_56"
+                    ><span class="imgWrap-item"
+                      ><img
+                        data-src="https://portal-cdn.smobgame.com/2/banner/15/6365c1c802879.jpg"
+                        class="img-fluid lazyloaded"
+                        title="Gói tích lũy kỳ hạn 3 tháng"
+                        alt="Tikop - Gói tích lũy kỳ hạn 3 tháng"
+                        src="https://portal-cdn.smobgame.com/2/banner/15/6365c1c802879.jpg" /></span
+                  ></span>
+                </div>
+                <div class="box-txt">
+                  <h3 class="rs name">Gói tích lũy kỳ hạn 3 tháng</h3>
+                  <div class="des">
+                    Gói tích lũy kỳ hạn 3 tháng lợi nhuận mục tiêu 5.5%/năm
+                  </div>
+                </div></a
+              >
+            </div>
+            <div
+              class="swiper-slide swiper__item aos-init aos-animate"
+              data-aos="fade-up"
+              data-aos-delay='"150"'
+              role="group"
+              aria-label="4 / 5"
+              style="width: 380.667px; margin-right: 24px">
+              <a href="javascript:void(0)"
+                ><div class="box-img">
+                  <span class="imgWrap img--cover pt_56"
+                    ><span class="imgWrap-item"
+                      ><img
+                        data-src="https://portal-cdn.smobgame.com/2/banner/17/6365c205a6e95.jpg"
+                        class="img-fluid lazyloaded"
+                        title="Gói tích lũy kỳ hạn 1 tháng"
+                        alt="Tikop - Gói tích lũy kỳ hạn 1 tháng"
+                        src="https://portal-cdn.smobgame.com/2/banner/17/6365c205a6e95.jpg" /></span
+                  ></span>
+                </div>
+                <div class="box-txt">
+                  <h3 class="rs name">Gói tích lũy kỳ hạn 1 tháng</h3>
+                  <div class="des">
+                    Gói tích lũy kỳ hạn 1 tháng lợi nhuận mục tiêu 6.25%/năm
+                  </div>
+                </div></a
+              >
+            </div>
+            <div
+              class="swiper-slide swiper__item aos-init aos-animate"
+              data-aos="fade-up"
+              data-aos-delay='"200"'
+              role="group"
+              aria-label="5 / 5"
+              style="width: 380.667px; margin-right: 24px">
+              <a href="javascript:void(0)"
+                ><div class="box-img">
+                  <span class="imgWrap img--cover pt_56"
+                    ><span class="imgWrap-item"
+                      ><img
+                        data-src="https://portal-cdn.smobgame.com/2/banner/200/6365c2149228d.jpg"
+                        class="img-fluid lazyloaded"
+                        title="Gói tích lũy không kỳ hạn"
+                        alt="Tikop - Gói tích lũy không kỳ hạn"
+                        src="https://portal-cdn.smobgame.com/2/banner/200/6365c2149228d.jpg" /></span
+                  ></span>
+                </div>
+                <div class="box-txt">
+                  <h3 class="rs name">Gói tích lũy không kỳ hạn</h3>
+                  <div class="des">
+                    Gói tích lũy không kỳ hạn, lợi nhuận kỳ vọng 5.5%/năm
+                  </div>
+                </div></a
+              >
+            </div>
+          </div>
+          <div class="swiper-pagination swiper-pagination-bullets">
+            <span
+              class="swiper-pagination-bullet swiper-pagination-bullet-active"></span
+            ><span class="swiper-pagination-bullet"></span
+            ><span class="swiper-pagination-bullet"></span>
+          </div>
+          <span
+            class="swiper-notification"
+            aria-live="assertive"
+            aria-atomic="true"></span>
+        </div>
+        <div
+          id="js-prev1"
+          class="custom-swiper-btn swiper-button-prev swiper-button-disabled"
+          tabindex="-1"
+          role="button"
+          aria-label="Previous slide"
+          aria-controls="swiper-wrapper-248d610c613a3724e"
+          aria-disabled="true"></div>
+        <div
+          id="js-next1"
+          class="custom-swiper-btn swiper-button-next"
+          tabindex="0"
+          role="button"
+          aria-label="Next slide"
+          aria-controls="swiper-wrapper-248d610c613a3724e"
+          aria-disabled="false"></div>
+      </div>
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+    <script src="./js/general.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

@@ -1,17 +1,13 @@
-:root {
-    --primary-color: #F5C909;
-    --container-bgcolor:#fffdf8;
-    --categorymenu-bgcolor: #fcfcfcce;
-
-    --star-size: 60px;
-    --star-color: #fff;
-    --star-background: #fc0;
-
-
-    
-}
 .heading {
     font-family: 'Merriweather', serif;
+}
+.btn {
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+:root{
+    --primary-color: #F5C909;
 }
 * {
     margin: 0;
@@ -22,25 +18,20 @@ a {
     text-decoration: none !important;
     cursor: pointer;
 }
-.btn {
-    outline: none;
-    border: none;
-    cursor: pointer;
-}
 body {
     font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Racing Sans One'; */
+    /* font-family: 'Raleway', sans-serif; */
     font-size: 16px;
     min-height: 100%;
-    width: 100%;
 
     display: flex;
     flex-direction: column;
 }
-.main-container {
-    /* background: #fcfcfcce; */
-    background: #f3f3f3ce;
+.container {
+    background-color: #FBFBFB;
 }
-
+/* header */
 .navbarHeader {
     display: flex;
     /* flex-direction: row; */
@@ -71,38 +62,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-}
-
-.searchbox {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    min-width: 200px;
-    
-    background: rgba(255,255,255,.25);
-    border-radius: 30px;
-}
-
-.searchbox input {
-    outline: none;
-    border: none;
-    background-color: transparent;
-    padding: 8px 0 8px 15px;
-    color: #FFFFFF;
-}
-.searchbox input::placeholder {
-    color: rgba(245, 245, 245, 0.4);
-}
-.searchbox button {
-    height: 23px;
-    width: 23px;
-
-    outline: none;
-    border: none;
-    border-radius: 50%;
-    background: rgba(255, 255, 255, 0.521);
-    margin-right: 6px;
-
 }
 #accImg{
     height: 100%;
@@ -197,7 +156,7 @@ body {
     .navbarHeader{
         flex-direction: column;
         background-color: #FFFFFF10;
-        backdrop-filter: blur(20px) saturate(150%);
+        backdrop-filter: blur(5px) saturate(150%);
         padding: 20px 0;
     }
     .navbarHeader_right {
@@ -213,16 +172,23 @@ body {
     }
     .welcome__content {
         transition: all .4s ease;
-        width: 100% !important;
-        padding: 0 50px  !important;
-        margin: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        align-content: center;
+        /* width: 80% !important; */
+        padding: 0 20px  !important;
+        
+        /* align-items: center;
+        align-content: center; */
     }
     .welcome__content p, .welcome__content h1 {
         text-align: center;
+    }
+    .heading {
+        font-size: 1rem !important;
+    }
+    .welcome__content p {
+        font-size: 0.8rem;
+    }
+    .welcome__content--desc {
+        font-size: 0.7rem;
     }
     
 }
@@ -306,16 +272,18 @@ body {
 
     .welcome {
         display: flex;
+        justify-content: center;
     }
     .welcome__content {
         transition: all .4s ease;
-        width: 100% !important;
-        padding: 0 50px  !important;
-        margin: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        align-content: center;
+        width: 70% !important;
+        padding: 10px  !important;
+        margin: auto !important;
+        position: absolute;
+        top: 35% !important;
+        width: 100%;
+        height: auto !important;
+        
     }
     .welcome__content p, .welcome__content h1 {
         text-align: center;
@@ -337,45 +305,84 @@ body {
         padding: 40px 0 30px;
     }
 }
+@media (min-width: 1263px ) {
+    .welcome__parallax{
+        background-image: url(/assets/category/food_comtam.jpg);
+    }
+}
+@media (max-width: 550px) {
+    .welcome__parallax{
+        background-image: url(/assets/category/food_comtamsmall.jpg) !important;
+    }
 
-/*==============================================*/
+}
+/* main content */
 .welcome__parallax {
     width: 100%;
     min-height: 100vh;
-    background-color: aqua;
 
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1));
+    background: linear-gradient(90deg, rgba(8, 8, 8, 0.589), rgba(0, 0, 0, 0.1));
 
+    background-image: url(/assets/category/food_comtam.jpg);
+ 
+
+    /* box-shadow: inset 0 150px 139px -100px rgb(0 0 0 / 87%); */
+    box-shadow: inset 0px -100px 150px 100px rgb(0 0 0 / 55%);
+
+    /* opacity: 0.9; */
     background-position: center;
     background-size: cover;
     position: relative;
 }
 
-.welcome__parallax--control {
+/* blur ở giữa */
+/* .welcome__content {
     position: absolute;
-    top: 60%;
-    right: 5%;
-    color: #ffffff79;
-    font-size: 50px;
-}
+    top: 30%;
+    margin-left: 100px;
+    padding: 30px 40px;
+    width: 40%;
 
+    line-height: 2;
+    background-color: #FFFFFF10;
+    backdrop-filter: blur(8px) saturate(100%);
+    border-radius: 8px;
+} */
 .welcome__content {
     position: absolute;
-    top: 35%;
-    padding: 0 0 0 180px;
-    width: 50%;
+    top: 0;
+    
+    padding-left: 100px;
+    padding-right: 50px;
+    width: 35%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    line-height: 2;
+    background-color: #FFFFFF10;
+    backdrop-filter: blur(15px) saturate(100%);
+
 }
 .welcome__content h1 {
     color: var(--primary-color);
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
     font-size: 2.75rem;
+
+
 }
 .welcome__content p {
     color: whitesmoke;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-size: 1rem;
-    margin: 20px 0 50px;
+}
+
+.welcome__content--desc {
+    font-size: 0.9rem;
+    
+    
 }
 .welcome__content a {
     background-color: var(--primary-color);
@@ -413,66 +420,68 @@ body {
     transition: background 0s;
 }   
 
-/* category menu */
-.categorySection {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
 
-    padding: 40px 100px 90px 100px;
-    background: var(--categorymenu-bgcolor);
+/*filter area*/
+ul {
+    list-style: none;
 }
-.categoryButtonComponent {
+.filterSection {
     display: flex;
-    justify-content: flex-end;
-    margin-bottom: 40px;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
 }
-.categoryItemComponent{
+.filterComponent {
+    width: 85%;
+    min-height: fit-content;
+    max-height: 200px;
+    border-radius: 10px;
+    background-color: white ;
+    /* backdrop-filter: blur(50px) saturate(150%); */
+
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
     display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    justify-content: space-between;
     flex-wrap: wrap;
-}
-.btnAllCategory {
-    display: flex;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
-
-    border-radius: 5px;
-    padding: 7px 20px;
-    font-size: 0.9rem;
 
 }
-
-.categoryItem {
+.filterItem {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
-
-    border-radius: 5px;
-
-    padding: 20px;
-
+    margin: 40px 20px;
+}
+.filterItem label {
     font-weight: 500;
-    color: #252525;
-    background: #FFF;
+    margin-bottom: 10px;
+    
+}
+.filterItem input, select {
+    outline: none;
+    border: none;
+    height: 27px;
+    font-size: 1rem;
+    width: max-content;
+    /* padding-left: 5px; */
 
+    /* background: #000; */
 }
-.categoryItem:hover {
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
-    transform: translateY(-5px) ;
-    transition: all .3s;
+.filter_location, 
+.filter_priceto {
+    padding-right: 40px;
+    border-right: 1px solid rgb(207, 207, 207);
+}
 
-    cursor: pointer;
+.btnSort {
+    background: var(--primary-color);
+    backdrop-filter: blur(5px) saturate(150%);
+    border-radius: 50%;
+    
+   
+
+    margin-left: 20px;
+    padding: 15px;
 }
-.categorySelect {
-    border: 1px solid var(--primary-color);
-    background: rgb(255, 254, 244);
-}
-.categoryItem img {
-    width: 80%;
-    padding-bottom: 15px;
-}
-/* category menu */
+/*filter area*/
