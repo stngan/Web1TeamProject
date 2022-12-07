@@ -4,9 +4,128 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>support</title>
+    <link rel="stylesheet" href="/css/zs.css">
+    <link rel="stylesheet" href="/style.css">
+    <script src="./zs.js" defer></script>
+    <style>
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #ffffff;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: rgb(253, 225, 10);
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: rgb(196, 196, 196);  
+        }
+    </style>
+  
 </head>
 <body>
+    <nav class="navbarHeader">
+        <div class="navbarHeader__left">
+          <img src="/assets/image/logo.svg" alt="">
+  
+          <form class="searchbox">
+            <input type="text" placeholder="sài gòn đi đâu..">
+  
+            <button type="submit" >
+                <ion-icon name="search-outline" style="color: white; font-size: 1rem;"></ion-icon>
+            </button>              
+          </form>
+        </div>
+        <div class="navbarHeader_right menu">
+            <i class="bx bx-x sidebarClose"></i>
+              <ul class="menu-links">
+                <li>
+                    <a href="/index.html">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="/index.html" >
+                        About
+                    </a>
+                </li>
+                <li>
+                    <a href="/index.html"  style="color:#f5c909;">
+                        Support
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Sign Up
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="btnLogin">
+                        Log In
+                    </a>
+                </li>
+              </ul>
+        </div>
+    </nav>
+
+    <div class="abus">
+        <div class="abus__parallax"></div>
+        <div class="abus__content">
+              <h1>SUPPORT</h1>
+        </div>
+        <div class="abus__parallax--control">
+              <ion-icon name="chevron-forward-circle-outline"></ion-icon>
+        </div>
+    </div>
     
+    <div class="Support">
+        <div class="Head__ques">
+            <p>TWO OFFICIAL SUPPORT CHANNELS FOR USERS AND CUSTOMERS</p>
+        </div>
+        <div class="container__item">
+            <div class="item">
+                <div class="item__Left">
+                    <img src="image/phone.png" alt="">
+                    <h2 style="color: orange;">Our Fanpage</h2>
+                    <p class="item__LR--p"><b>Contact our Fanpage for direct support</b></p>
+                    <div class="item__left--btn">
+                    <a href="#">Fanpage</a></div>
+                </div>
+        
+            </div>  
+            <div class="item">
+                <div class="item__Right">
+                    <img src="image/email.png" alt="">
+                    <h2 style="color: orange;">Email Support</h2>
+                    <p class="item__LR--p"><span style="font-family: 'Work Sans', times, serif;"><strong>Email us at <span style="color: #f1c40f; font-size: 18px;">&ldquo;sgsidebyside.contact@gmail.com&rdquo;</span> for supporting</strong></span></p>
+                </div>
+            </div>
+        </div>
+    </div>        
+    
+    <Div class="support__faq" >
+        <p class="faq__title">FAQ</p>
+        <div class="faq__ques">
+            <div class="ques__item"> 
+                <button class="accordion">FAQ Number 1 </button>
+                <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+            <div class="ques__item"> 
+                <button class="accordion">FAQ Number 2 </button>
+                <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+            <div class="ques__item"> 
+                <button class="accordion">FAQ Number 3 </button>
+                <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+        </div>
+    </Div>
 </body>
 </html>
