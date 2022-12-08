@@ -3,15 +3,18 @@
 section {
     padding: 60px 0;
 }
-
+#item{
+    text-align: center;
+}
 section .section-title {
     text-align: center;
-    color: #007b5e;
+    color: #f7ea02;
     margin-bottom: 50px;
     text-transform: uppercase;
 }
 #footer {
-    background: #007b5e !important;
+    background: #ffdb11 !important;
+    text-align: center;
 }
 #footer h5{
 	padding-left: 10px;
