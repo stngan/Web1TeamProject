@@ -9,8 +9,6 @@
     <!-- css -->
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./css/categoryItem.css">
-    
- 
 
     <!-- icon -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -22,10 +20,8 @@
 
     <!-- aos -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  
 
-
-    <script src="/js/java.js" defer></script>
+    <script src="/js/java.js" defer></script>   
 
     <!-- swiper -->
     <link rel="stylesheet" href="./css/swiper-bundle.min.css">
@@ -47,7 +43,7 @@
         }
     </style>
 </head>
-<body onload="load()">
+<body onload="loadHomeLastest()">
 
     
     <nav class="navbarHeader" >
@@ -217,16 +213,16 @@
 
         </div>
 
-        <div class="lastestSection">
+        <div class="lastestSection" id="homeLastest">
             <div class="lastestHeaderComponent" style="font-size: 1.25rem;">
                 <hr class="lasestTopbar">
                 <p class="lastestHeader heading">Explore lastest destinations</p>
                 <p class="lastestDesc">Explore your suitable and dream places around this city. Here you can find your right destination.</p>
             </div>
 
-            <div class="slide-container swiper">
-                <div class="slide-content">
-                    <div class="card-wrapper swiper-wrapper">
+            <div class="slide-container swiper" >
+                <div class="slide-content" >
+                    <div class="card-wrapper swiper-wrapper" >
 
                         <div class="card swiper-slide">
                             <div class="card__image">
@@ -259,139 +255,6 @@
                                 </div>
                             </div>
                         </div>
-                        
-                        <div class="card swiper-slide">
-                            <div class="card__image">
-                                <img src="https://scontent.fsgn5-15.fna.fbcdn.net/v/t1.6435-9/104533058_143330014030380_5367894811800449298_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=b9115d&_nc_ohc=OtOeXHIcvekAX_VgkZe&tn=vuXqooJZQDmiEJzw&_nc_ht=scontent.fsgn5-15.fna&oh=00_AfBkjIo6Kr2nXnK-lipSEwo265WAuo4_2cvo6L03iK4Juw&oe=63B6D4ED" alt="">
-                            </div>
-                            <div class="card__content">
-                                <p class="card__content--title">Nông trại mua sắm The Box Market</p>
-                                <p class="card__content--desc">Ai thích săn đồ độc lạ hay mấy hàng handmade thì mình highly recommend ở đây nha. Có free vẽ Henna, tết tóc Bohemian và Nail luôn</p>
-                                <div class="card__content--hashtag">
-                                    <span>#Shopping</span>
-                                    <span>#Q.Phú Nhuận</span>
-                                </div>
-                                <div class="card__content--author">
-                                    <div class="author-info">
-                                        <div class="author-avatar">
-                                            <img src="./assets/avt2.jpg" alt="">
-                                        </div>
-                                        <div>
-                                            <div class="author-name">Kim Hoàng</div>
-                                            <div class="time-create">
-                                                9AM 6/12/2022
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="author-rating">
-                                        <p>Rating</p>
-                                        <span class="Stars" style="--rating: 3.5;">
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="card swiper-slide">
-                            <div class="card__image">
-                                <img src="https://scontent.fsgn5-12.fna.fbcdn.net/v/t39.30808-6/309710099_491482592866896_5591043872077205142_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5cd70e&_nc_ohc=5hYALSUcV6gAX94_Xui&_nc_ht=scontent.fsgn5-12.fna&oh=00_AfAvaDjzWj-fLeblbamuUx8LSjtcQwsJEIEvuQQ73KBejg&oe=63952FFC" alt="">
-                            </div>
-                            <div class="card__content">
-                                <p class="card__content--title">WATER BUS ĐỘC NHẤT VÔ NHỊ Ở SÀI GÒN</p>
-                                <p class="card__content--desc">Tuyến buýt đường sông có lộ trình dài gần 11 km. Đây là tuyến Xe bus đường sông bắt đầu từ Bến Bạch Đằng (Quận 1, TP HCM) đi qua 4 bến và kết thúc ở Bến Linh Đông ( Quận Thủ Đức ). Hành trình di chuyển toàn chặng khoảng 30 phút.</p>
-                                <div class="card__content--hashtag">
-                                    <span>#Transport</span>
-                                    <span>#Q.1</span>
-                                </div>
-                                <div class="card__content--author">
-                                    <div class="author-info">
-                                        <div class="author-avatar">
-                                            <img src="./assets/avt2.jpg" alt="">
-                                        </div>
-                                        <div>
-                                            <div class="author-name">Song Ngân</div>
-                                            <div class="time-create">
-                                                8PM 5/12/2022
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="author-rating">
-                                        <p>Rating</p>
-                                        <span class="Stars" style="--rating: 4.0;">
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="card swiper-slide">
-                            <div class="card__image">
-                                <img src="./assets/image/building.jpg" alt="">
-                            </div>
-                            <div class="card__content">
-                                <p class="card__content--title">Worskshop nến thơm First Sight</p>
-                                <p class="card__content--desc">Với gói Workshop nến thơm này các bạn sẽ được giảng dạy chi tiết về công thức các loại mùi hương, pha màu. Sẽ đóng vai làm một người thợ đổ nến chuyên nghiệp như nhân viên tại First Sight.</p>
-                                <div class="card__content--hashtag">
-                                    <span>#Adventure</span>
-                                    <span>#Q.Phú Nhuận</span>
-                                </div>
-                                <div class="card__content--author">
-                                    <div class="author-info">
-                                        <div class="author-avatar">
-                                            <img src="./assets/avt2.jpg" alt="">
-                                        </div>
-                                        <div>
-                                            <div class="author-name">Song Ngân</div>
-                                            <div class="time-create">
-                                                8PM 5/12/2022
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="author-rating">
-                                        <p>Rating</p>
-                                        <span class="Stars" style="--rating: 2.3;">
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="card swiper-slide">
-                            <div class="card__image">
-                                <img src="./assets/image/building.jpg" alt="">
-                            </div>
-                            <div class="card__content">
-                                <p class="card__content--title">nông trại The Box Market</p>
-                                <p class="card__content--desc">Với gói Workshop nến thơm này các bạn sẽ được giảng dạy chi tiết về công thức các loại mùi hương, pha màu. Sẽ đóng vai làm một người thợ đổ nến chuyên nghiệp như nhân viên tại First Sight.</p>
-                                <div class="card__content--hashtag">
-                                    <span>#Adventure</span>
-                                    <span>#Q.Phú Nhuận</span>
-                                </div>
-                                <div class="card__content--author">
-                                    <div class="author-info">
-                                        <div class="author-avatar">
-                                            <img src="./assets/avt2.jpg" alt="">
-                                        </div>
-                                        <div>
-                                            <div class="author-name">Song Ngân</div>
-                                            <div class="time-create">
-                                                8PM 5/12/2022
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="author-rating">
-                                        <p>Rating</p>
-                                        <span class="Stars" style="--rating: 2.3;">
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-
-                       
-                       
-                        
                     </div>
                 </div>
     
