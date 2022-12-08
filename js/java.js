@@ -43,7 +43,6 @@ function load(){
          document.getElementById("Login").style.display = "none";
          document.getElementById("signUp").style.display = "none";
          document.getElementById("account").style.display = "block";
-         document.getElementById("logOut").style.display = "block";
          document.getElementById("accImg").src = img;
         //  --------------SAVE data to locationstorage------------------
         
