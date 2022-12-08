@@ -126,6 +126,57 @@ body {
     height: 3em;
     width: 3em;
 }
+.account_list{
+    position: absolute;
+    top: 100%;
+    display: none;
+    padding: 10px;
+    width: 250px;
+    /* max-width: 100%; */
+    background-color: white;
+    color: #252525;
+    right: -20%;
+    border-radius: 5px;
+    }
+    .account_list-item{
+      border-bottom: 1px solid #000;
+      display: flex;
+      align-items: center;
+      padding: 10px 5px;
+        }
+.account_icon{
+    font-size: 20px;
+}
+.account_icon--border{
+    border-radius: 50%;
+    border: 1px solid;
+    height:50px;
+    width:50px;
+    text-align: center;
+    line-height: 50px;
+}
+.account_mail{
+    margin-left: 10px;
+    
+}
+.account:hover .account_list{
+    display: block;
+}
+
+.account_logout{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0!important;
+}
+    
+.account_logout span{
+    
+    padding: 5px 50px;
+    background-color: #F5C909;
+    border-radius: 5px;
+}
+
+
 .btnLogin {
     background-color: var(--primary-color);
     border: 1.5px solid var(--primary-color);
