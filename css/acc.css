@@ -1,0 +1,153 @@
+html{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    background-color: F5F5F5;
+
+}
+.left{
+    flex: 1;
+
+}
+.right{
+    flex: 3;
+    height:700px; float:right;
+}
+.account{
+    display: flex;
+
+}
+.user__container{
+    margin-left: 10px;
+}
+.Account__icon{
+    border-radius: 50%;
+    border: 1px solid;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    margin: 23px 10px 0 30px;
+}
+
+hr{
+    width: 80%;
+}
+.table{
+    padding: 30px;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.show__info{
+    width:100%; 
+    height:100%; 
+    border:none;
+    box-shadow: 0px 3px 3px 3px rgb(61, 92, 0);
+}
+.table ul {
+    list-style: none;
+}
+
+.table>ul {
+    padding: 0;
+}
+
+.table li {
+    padding: 8px;
+}
+
+.table a {
+    text-decoration: none;
+    color: var(--color4);
+}
+Li:hover{
+    color: #F5C909;
+}
+
+/* myAccount */
+
+
+#myFrame {
+    width: 900px;
+    overflow: hidden;
+}
+
+.profile {
+    width: 900px;
+    background-color: var(--primary-color);
+    margin-right: 30px;
+}
+
+/* .profile>div {
+    float: right;
+    text-align: center;
+} */
+
+.profile hr {
+    width: 90%;
+}
+
+.profile form>div {
+    margin-top: 30px;
+    display: flex;
+}
+
+.profile form label {
+    min-width: 150px;
+    text-align: right;
+    margin-right: 20px;
+}
+.profile__title{
+    padding-left: 50px;}
+
+label{
+    font-family: 'Inter';
+    font-style: Thin;
+    font-size: 16px;
+    padding: 10px;
+    line-height: 10px;
+}
+input {
+    background-color:transparent;
+    border: 0px solid;
+    height:30px;
+    width:260px;
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 20px;
+}
+input:focus {
+    outline:none;
+}
+
+/* wishList */
+.myWishList{
+    color: beige;
+    text-align: center;
+}
+.myWishList h3{
+    color: #D9D9D9;
+    Font-family: 'Inter';
+    Font-style: Medium;
+    Font-size: 24px;
+    Line-height: 29px;}
+.myWishList img{
+    width: 245px;
+}
+.myWishList button{
+    background-color: #fffcfc;
+    border: 1px solid rgb(246, 69, 92);
+    border-radius: 10px;
+    box-shadow: none;
+    margin-top: 70px;
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    padding: 1px;
+
+}
