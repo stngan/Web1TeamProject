@@ -17,11 +17,12 @@
     <link rel="stylesheet" href="/css/swiper-bundle.min.css">
     <script src="/js/swiper-bundle.min.js" defer></script>
     <script src="/js/swiper.js" defer></script>
+    <script src="/js/eatDrink.js" defer></script>
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
-<body>
+<body onload="load()">
 
     <nav class="navbarHeader" >
         <div class="navbarHeader__left">
@@ -153,14 +154,14 @@
 
                         <div class="card swiper-slide">
                             <div class="card__image">
-                                <img src="https://firstsight.vn/wp-content/uploads/2022/07/z3592320041981_77afa05b705f580bc6aecb6ca617a098-533x400.jpg" alt="">
+                                <img class="card__image--detail" src="https://firstsight.vn/wp-content/uploads/2022/07/z3592320041981_77afa05b705f580bc6aecb6ca617a098-533x400.jpg" alt="">
                             </div>
                             <div class="card__content">
                                 <p class="card__content--title">Worskshop nến thơm First Sight</p>
                                 <p class="card__content--desc">Với gói Workshop nến thơm này các bạn sẽ được giảng dạy chi tiết về công thức các loại mùi hương, pha màu. Sẽ đóng vai làm một người thợ đổ nến chuyên nghiệp như nhân viên tại First Sight.</p>
                                 <div class="card__content--hashtag">
-                                    <span>#Adventure</span>
-                                    <span>#Q.Phú Nhuận</span>
+                                    <span>#E&D</span>
+                                    <span class="card__content--add">#Q.1</span>
                                 </div>
                                 <div class="card__content--author">
                                     <div class="author-info">
@@ -185,14 +186,14 @@
                         
                         <div class="card swiper-slide">
                             <div class="card__image">
-                                <img src="https://scontent.fsgn5-15.fna.fbcdn.net/v/t1.6435-9/104533058_143330014030380_5367894811800449298_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=b9115d&_nc_ohc=OtOeXHIcvekAX_VgkZe&tn=vuXqooJZQDmiEJzw&_nc_ht=scontent.fsgn5-15.fna&oh=00_AfBkjIo6Kr2nXnK-lipSEwo265WAuo4_2cvo6L03iK4Juw&oe=63B6D4ED" alt="">
+                                <img class="card__image--detail" src="https://scontent.fsgn5-15.fna.fbcdn.net/v/t1.6435-9/104533058_143330014030380_5367894811800449298_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=b9115d&_nc_ohc=OtOeXHIcvekAX_VgkZe&tn=vuXqooJZQDmiEJzw&_nc_ht=scontent.fsgn5-15.fna&oh=00_AfBkjIo6Kr2nXnK-lipSEwo265WAuo4_2cvo6L03iK4Juw&oe=63B6D4ED" alt="">
                             </div>
                             <div class="card__content">
                                 <p class="card__content--title">Nông trại mua sắm The Box Market</p>
                                 <p class="card__content--desc">Ai thích săn đồ độc lạ hay mấy hàng handmade thì mình highly recommend ở đây nha. Có free vẽ Henna, tết tóc Bohemian và Nail luôn</p>
                                 <div class="card__content--hashtag">
-                                    <span>#Shopping</span>
-                                    <span>#Q.Phú Nhuận</span>
+                                    <span>#E&D</span>
+                                    <span class="card__content--add">#Q.1</span>
                                 </div>
                                 <div class="card__content--author">
                                     <div class="author-info">
@@ -216,15 +217,15 @@
                         </div>
                         
                         <div class="card swiper-slide">
-                            <div class="card__image">
-                                <img src="https://scontent.fsgn5-12.fna.fbcdn.net/v/t39.30808-6/309710099_491482592866896_5591043872077205142_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5cd70e&_nc_ohc=5hYALSUcV6gAX94_Xui&_nc_ht=scontent.fsgn5-12.fna&oh=00_AfAvaDjzWj-fLeblbamuUx8LSjtcQwsJEIEvuQQ73KBejg&oe=63952FFC" alt="">
+                            <div  class="card__image">
+                                <img class="card__image--detail" src="https://scontent.fsgn5-12.fna.fbcdn.net/v/t39.30808-6/309710099_491482592866896_5591043872077205142_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5cd70e&_nc_ohc=5hYALSUcV6gAX94_Xui&_nc_ht=scontent.fsgn5-12.fna&oh=00_AfAvaDjzWj-fLeblbamuUx8LSjtcQwsJEIEvuQQ73KBejg&oe=63952FFC" alt="">
                             </div>
                             <div class="card__content">
                                 <p class="card__content--title">WATER BUS ĐỘC NHẤT VÔ NHỊ Ở SÀI GÒN</p>
                                 <p class="card__content--desc">Tuyến buýt đường sông có lộ trình dài gần 11 km. Đây là tuyến Xe bus đường sông bắt đầu từ Bến Bạch Đằng (Quận 1, TP HCM) đi qua 4 bến và kết thúc ở Bến Linh Đông ( Quận Thủ Đức ). Hành trình di chuyển toàn chặng khoảng 30 phút.</p>
                                 <div class="card__content--hashtag">
-                                    <span>#Transport</span>
-                                    <span>#Q.1</span>
+                                    <span>#E&D</span>
+                                    <span class="card__content--add">#Q.1</span>
                                 </div>
                                 <div class="card__content--author">
                                     <div class="author-info">
@@ -249,14 +250,14 @@
                         
                         <div class="card swiper-slide">
                             <div class="card__image">
-                                <img src="./assets/image/building.jpg" alt="">
+                                <img class="card__image--detail" src="" alt="">
                             </div>
                             <div class="card__content">
                                 <p class="card__content--title">Worskshop nến thơm First Sight</p>
                                 <p class="card__content--desc">Với gói Workshop nến thơm này các bạn sẽ được giảng dạy chi tiết về công thức các loại mùi hương, pha màu. Sẽ đóng vai làm một người thợ đổ nến chuyên nghiệp như nhân viên tại First Sight.</p>
                                 <div class="card__content--hashtag">
-                                    <span>#Adventure</span>
-                                    <span>#Q.Phú Nhuận</span>
+                                    <span>#E&D</span>
+                                    <span class="card__content--add">#Q.1</span>
                                 </div>
                                 <div class="card__content--author">
                                     <div class="author-info">
@@ -280,15 +281,15 @@
                         </div>
                         
                         <div class="card swiper-slide">
-                            <div class="card__image">
-                                <img src="./assets/image/building.jpg" alt="">
+                            <div  class="card__image">
+                                <img class="card__image--detail" src="./assets/image/building.jpg" alt="">
                             </div>
                             <div class="card__content">
                                 <p class="card__content--title">nông trại The Box Market</p>
                                 <p class="card__content--desc">Với gói Workshop nến thơm này các bạn sẽ được giảng dạy chi tiết về công thức các loại mùi hương, pha màu. Sẽ đóng vai làm một người thợ đổ nến chuyên nghiệp như nhân viên tại First Sight.</p>
                                 <div class="card__content--hashtag">
-                                    <span>#Adventure</span>
-                                    <span>#Q.Phú Nhuận</span>
+                                    <span>#E&D</span>
+                                    <span class="card__content--add">#Q.1</span>
                                 </div>
                                 <div class="card__content--author">
                                     <div class="author-info">
@@ -375,15 +376,15 @@
             <div class="card-wrapper swiper-wrapper">
 
                 <div class="card swiper-slide">
-                    <div class="card__image">
-                        <img src="/assets/category/food_ca.jpg" alt="">
+                    <div  class="card__image">
+                        <img class="card__image--detail"  src="/assets/category/food_ca.jpg" alt="">
                     </div>
                     <div class="card__content">
                         <p class="card__content--title">Worskshop nến thơm First Sight</p>
                         <p class="card__content--desc">Với gói Workshop nến thơm này các bạn sẽ được giảng dạy chi tiết về công thức các loại mùi hương, pha màu. Sẽ đóng vai làm một người thợ đổ nến chuyên nghiệp như nhân viên tại First Sight.</p>
                         <div class="card__content--hashtag">
                             <span>#EatDrink</span>
-                            <span>#Q.Phú Nhuận</span>
+                            <span class="card__content--add">#Q.1</span>
                         </div>
                         <div class="card__content--author">
                             <div class="author-info">
@@ -407,14 +408,14 @@
                 </div>
                 <div class="card swiper-slide">
                     <div class="card__image">
-                        <img src="/assets/category/food_pho.jpg" alt="">
+                        <img class="card__image--detail" src="/assets/category/food_pho.jpg" alt="">
                     </div>
                     <div class="card__content">
                         <p class="card__content--title">Worskshop nến thơm First Sight</p>
                         <p class="card__content--desc">Với gói Workshop nến thơm này các bạn sẽ được giảng dạy chi tiết về công thức các loại mùi hương, pha màu. Sẽ đóng vai làm một người thợ đổ nến chuyên nghiệp như nhân viên tại First Sight.</p>
                         <div class="card__content--hashtag">
                             <span>#EatDrink</span>
-                            <span>#Q.Phú Nhuận</span>
+                            <span class="card__content--add">#Q.1</span>
                         </div>
                         <div class="card__content--author">
                             <div class="author-info">
@@ -438,14 +439,14 @@
                 </div>
                 <div class="card swiper-slide">
                     <div class="card__image">
-                        <img src="/assets/category/food_comtam.jpg" alt="">
+                        <img class="card__image--detail" src="/assets/category/food_comtam.jpg" alt="">
                     </div>
                     <div class="card__content">
                         <p class="card__content--title">Worskshop nến thơm First Sight</p>
                         <p class="card__content--desc">Với gói Workshop nến thơm này các bạn sẽ được giảng dạy chi tiết về công thức các loại mùi hương, pha màu. Sẽ đóng vai làm một người thợ đổ nến chuyên nghiệp như nhân viên tại First Sight.</p>
                         <div class="card__content--hashtag">
                             <span>#EatDrink</span>
-                            <span>#Q.Phú Nhuận</span>
+                            <span class="card__content--add">#Q.1</span>
                         </div>
                         <div class="card__content--author">
                             <div class="author-info">
@@ -469,14 +470,14 @@
                 </div>
                 <div class="card swiper-slide">
                     <div class="card__image">
-                        <img src="/assets/category/food_ca.jpg" alt="">
+                        <img class="card__image--detail" src="/assets/category/food_ca.jpg" alt="">
                     </div>
                     <div class="card__content">
                         <p class="card__content--title">Worskshop nến thơm First Sight</p>
                         <p class="card__content--desc">Với gói Workshop nến thơm này các bạn sẽ được giảng dạy chi tiết về công thức các loại mùi hương, pha màu. Sẽ đóng vai làm một người thợ đổ nến chuyên nghiệp như nhân viên tại First Sight.</p>
                         <div class="card__content--hashtag">
                             <span>#EatDrink</span>
-                            <span>#Q.Phú Nhuận</span>
+                            <span class="card__content--add">#Q.1</span>
                         </div>
                         <div class="card__content--author">
                             <div class="author-info">
@@ -500,14 +501,14 @@
                 </div>
                 <div class="card swiper-slide">
                     <div class="card__image">
-                        <img src="/assets/category/food_pho.jpg" alt="">
+                        <img class="card__image--detail" src="/assets/category/food_pho.jpg" alt="">
                     </div>
                     <div class="card__content">
                         <p class="card__content--title">Worskshop nến thơm First Sight</p>
                         <p class="card__content--desc">Với gói Workshop nến thơm này các bạn sẽ được giảng dạy chi tiết về công thức các loại mùi hương, pha màu. Sẽ đóng vai làm một người thợ đổ nến chuyên nghiệp như nhân viên tại First Sight.</p>
                         <div class="card__content--hashtag">
                             <span>#EatDrink</span>
-                            <span>#Q.Phú Nhuận</span>
+                            <span class="card__content--add">#Q.1</span>
                         </div>
                         <div class="card__content--author">
                             <div class="author-info">
@@ -531,14 +532,14 @@
                 </div>
                 <div class="card swiper-slide">
                     <div class="card__image">
-                        <img src="/assets/category/food_comtam.jpg" alt="">
+                        <img class="card__image--detail" src="/assets/category/food_comtam.jpg" alt="">
                     </div>
                     <div class="card__content">
                         <p class="card__content--title">Worskshop nến thơm First Sight</p>
                         <p class="card__content--desc">Với gói Workshop nến thơm này các bạn sẽ được giảng dạy chi tiết về công thức các loại mùi hương, pha màu. Sẽ đóng vai làm một người thợ đổ nến chuyên nghiệp như nhân viên tại First Sight.</p>
                         <div class="card__content--hashtag">
                             <span>#EatDrink</span>
-                            <span>#Q.Phú Nhuận</span>
+                            <span class="card__content--add">#Q.1</span>
                         </div>
                         <div class="card__content--author">
                             <div class="author-info">
