@@ -31,11 +31,12 @@ function load(){
     })
     .then(function (data) {
       var check = false;
-      
+      var temp;
       for (let u of data) {
        if ((user == u.userName) && (pass = u.passWord)) {
           check = true;
           img += u.avatar;
+          temp = u.userName;
           break;
        }
       }
@@ -44,6 +45,7 @@ function load(){
          document.getElementById("signUp").style.display = "none";
          document.getElementById("account").style.display = "block";
          document.getElementById("accImg").src = img;
+         document.getElementById("account__user").innerHTML = temp;
         //  --------------SAVE data to locationstorage------------------
         
         localStorage.setItem("user", user);
