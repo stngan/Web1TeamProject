@@ -15,15 +15,12 @@
     </div>
     <form action="/index.html" method="get" id="formLogin">
         <h3>Login Text</h3>
-        <div class="social">
-          <div class="go"><i class="fab fa-google"></i> Google</div>
-          <div class="fb"><i class="fab fa-facebook"></i>  Facebook</div>
-        </div>
         <label for="email">Email</label>
-        <input type="text" placeholder="Enter User Email" name="email" id="email">
+        <input type="email" placeholder="Enter User Email" name="email" id="email" required >
 
         <label for="password">Password</label>
-        <input type="password" name="password" placeholder="Password" id="password">
+        <input type="password" name="password" placeholder="Password" id="password" required >
+        <div class="password__Forgot"><a href="#">Forgot password?</a></div>
 
         <input onclick="Login()" class="button" type="button" value="Log In">
         <p class="form-title">Don't have an account?<a href="signup.html">&ensp;<strong>Sign up</strong></a></p>

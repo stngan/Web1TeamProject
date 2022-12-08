@@ -16,16 +16,18 @@
     <form>
         <h3>Signup Here</h3>
         <label for="username">Username</label>
-        <input type="text" placeholder="Username" id="username">
+        <input type="text"  placeholder="Username" id="username" required minlength="3" maxlength="20" >
 
         <label for="email">Email</label>
-        <input type="text" placeholder="Enter User Email" id="email">
+        <input type="email" placeholder="Enter User Email" id="email" required >
 
         <label for="password">Password</label>
-        <input type="password" placeholder="Password" id="password">
+        <input type="password" placeholder="Create Password (Min. 8 Characters)" id="password1" required  pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$"
+        title="Please include at least 1 uppercase character, 1 lowercase character, and 1 number.">
 
         <label for="password">Confirm Password</label>
-        <input type="password" placeholder="Confirm Password" id="password">
+        <input type="password" placeholder="Confirm Password" id="password2" required  pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$"
+        title="Please include at least 1 uppercase character, 1 lowercase character, and 1 number.">
 
         <button>Sign up</button>
         <p class="form-title">Already have an account?<a href="login.html">&ensp;<strong>Log in</strong></a></p>
@@ -33,3 +35,4 @@
     </form>
 </body>
 </html>
+
