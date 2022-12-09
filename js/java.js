@@ -61,3 +61,6 @@ function load(){
     })
 
 }
+function dieu_huong(){
+  location.assign("/includes/acount.html");
+}

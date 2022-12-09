@@ -144,6 +144,18 @@ body {
       align-items: center;
       padding: 10px 5px;
         }
+        .account_list-item button{
+            background-color: rgba(254, 253, 253, 0.218); 
+            border: none;
+            color: rgb(17, 0, 0);
+            padding: 0;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 18px;
+            margin-left: 35px;
+            cursor: pointer;
+        }
 .account_icon{
     font-size: 20px;
 }
