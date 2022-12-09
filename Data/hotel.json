@@ -1,0 +1,95 @@
+[
+    {
+      "Place_ID": 1,
+        "address_ID": 1,
+      "address": "",
+      "Time": "07:00-22:00",
+      "Min_cost": 1000000,
+      "Max_cost": 100000000,
+      "img": "E&D1.png",
+      "content": " Mô hình cà phê kết hợp",
+      "Description": " FAN JURASSIC ",
+      "Author_user": "Kim Hoàng",
+      "Author_timeUpdate" : "8PM 5/12/2022",
+      "Author_avt": "KimHoang.jpg",
+      "rate": "3.5"
+    },
+    {
+      "Place_ID": 2,
+      "address_ID": 1,
+      "address": "258R Dương Quảng Hàm, P5, Gò Vấp",
+      "Time": "06:00-12:00 (T3-CN)",
+      "Min_cost": 50000,
+      "Max_cost": 70000,
+      "img": "E&D2.png",
+      "content": " Sáng mà thèm bánh mì ",
+      "Description": "BỎ TÚI NGAY TIỆM B",
+      "Author_user": "Duy Thành",
+      "Author_timeUpdate" : "7PM 4/12/2022",
+      "Author_avt": "DuyThanh.jpg",
+      "rate": "4.5"
+    },
+    {
+      "Place_ID": 3,
+        "address_ID": 2,
+      "address": "Lầu 6, 35 Nguyễn Văn Tráng, Q.1",
+      "Time": "8:OO - 22:3O",
+      "Min_cost": 35000,
+      "Max_cost": 100000,
+      "img": "E&D3.png",
+      "content": " Chỗ này để dẫn nhau đi trốn thì ",
+      "Description": "CÀ RÈ CAFE",
+      "Author_user": "Tuyết Ngân",
+      "Author_timeUpdate" : "5PM 3/12/2022",
+      "Author_avt": "TuyetNgan.jpg",
+      "rate": "3.5"
+    },
+    {
+      "Place_ID": 4,
+        "address_ID": 2,
+      "address": "30 Ngô Đức Kế, Quận 1",
+      "Time": "5:00-23:00",
+      "Min_cost": 1000000,
+      "Max_cost": 100000000,
+      "img": "E&D4.png",
+      "content": "Chỗ này để dẫn nhau đi trốn thì ",
+      "Description": "HẸN HÒ SANG",
+      "Author_user": "Hoàng Huy",
+      "Author_timeUpdate" : "10AM 5/12/2022",
+      "Author_avt": "HoangHuy.jpg",
+      "rate": "3"
+    },
+    {
+      "Place_ID": 5,
+        "address_ID": 2,
+      "address": "36Bis Huỳnh Khương Ninh, Dakao, Quận 1",
+      "Time": "18:00- 01:00",
+      "Min_cost": 300000,
+      "Max_cost": 100000000,
+      "img": "E&D5.png",
+      "content": " Vô tình biết đến Du Bar qua lời ",
+      "Description": "ĐẾN DU BAR, ",
+      "Author_user": "Minh Hoài",
+      "Author_timeUpdate" : "6PM 7/12/2022",
+      "Author_avt": "MinhHoai.jpg",
+      "rate": "5"
+    },
+    {
+      "Place_ID": 6,
+        "address_ID": 3,
+      "address": "10 Lê Quý Đôn, Phú Nhuận",
+      "Time": " 8:00-20:00",
+      "Min_cost": 50000,
+      "Max_cost": 100000000,
+      "img": "E&D6.png",
+      "content": "Một chiếc quán trang trí giáng ",
+      "Description": "NHẮC TỚI GIÁNG SINH ĐÃ TỚI THÌ KHÔNG THỂ BỎ QUA MAISON RỒI",
+      "Author_user": "Kim Hoàng",
+      "Author_timeUpdate" : "8PM 1/12/2022",
+      "Author_avt": "KimHoang.jpg",
+      "rate": "4.5"
+    }
+]
+ 
+ 
+
