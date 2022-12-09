@@ -544,3 +544,34 @@ body {
     padding-bottom: 15px;
 }
 /* category menu */
+
+
+
+.item__saveFavorite{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFCF00 ;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 20vh;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+  }
+  .item__saveFavorite h2 {
+    color: #FFFFFF;
+    padding-right: 30px;
+  }
+  .item__saveFavorite--signUp {
+   border-radius: 10px;
+    text-decoration: none;
+    background: #FFF;
+    color: #F5C909;
+    font-weight: 700;
+    padding: 10px 20px;
+
+}

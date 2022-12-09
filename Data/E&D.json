@@ -88,6 +88,21 @@
       "Author_timeUpdate" : "8PM 1/12/2022",
       "Author_avt": "KimHoang.jpg",
       "rate": "1.5"
+    },
+    {
+      "Place_ID": 6,
+        "address_ID": 3,
+      "address": "10 Lê Quý Đôn, Phú Nhuận",
+      "Time": " 8:00-20:00",
+      "Min_cost": 50000,
+      "Max_cost": 100000000,
+      "img": "E&D6.png",
+      "content": "Một chiếc quán trang trí giáng sinh đầu tiên của Sài Gòn mà bây giờ mới có dịp ghé thăm, Maison chưa bao giờ làm mình về Decor trang trí giáng sinh, Quán theo phong cách hơi cổ điển tạo nên cảm giác hơi ấm áp cho mùa đông lạnh lẽo này. Đặc biệt quán còn Setup 7749 góc sống ảo cho chị em.<br/> Về món nước ở đây cũng khá là đa dạng đặc biệt là các món đều được trang trí một cách khá là chỉnh chu lun. Quán đang có chương trình mua bánh và nước sẽ được tặng 1 gói bánh quy nha.",
+      "Description": "NHẮC TỚI GIÁNG SINH ĐÃ TỚI THÌ KHÔNG THỂ BỎ QUA MAISON RỒI",
+      "Author_user": "Kim Hoàng",
+      "Author_timeUpdate" : "8PM 1/12/2022",
+      "Author_avt": "KimHoang.jpg",
+      "rate": "1.5"
     }
 ]
  
