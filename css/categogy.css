@@ -76,15 +76,6 @@ body {
 .logOut{
     display: none;
 }
-/* .account{
-    position: relative;
-    display: none;
-    background: #ffffff;
-    border-radius: 50%;
-    box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
-    height: 3em;
-    width: 3em;
-} */
 /* css account */
 .account{
     position: relative;
@@ -379,12 +370,12 @@ body {
 }
 @media (min-width: 1263px ) {
     .welcome__parallax{
-        /* background-image: url(/assets/category/food_comtam.jpg); */
+        background-image: url(/assets/category/food_comtam.jpg);
     }
 }
 @media (max-width: 550px) {
     .welcome__parallax{
-        /* background-image: url(/assets/category/food_comtamsmall.jpg) !important; */
+        background-image: url(/assets/category/food_comtamsmall.jpg) !important;
     }
 
 }
@@ -395,7 +386,7 @@ body {
 
     background: linear-gradient(90deg, rgba(8, 8, 8, 0.589), rgba(0, 0, 0, 0.1));
 
-    /* background-image: url(/assets/category/food_comtam.jpg); */
+    background-image: url(/assets/category/food_comtam.jpg);
  
 
     /* box-shadow: inset 0 150px 139px -100px rgb(0 0 0 / 87%); */
