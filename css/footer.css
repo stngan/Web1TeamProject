@@ -12,6 +12,8 @@ section .section-title {
     text-transform: uppercase;
 }
 #footer {
+    overflow: hidden;
+    margin-top: 20px;
     background: #FFDC11 !important;
     text-align: center;
 }
@@ -53,7 +55,7 @@ section .section-title {
 #footer ul.social li a:hover{
 	color:#eeeeee;
 }
-p{
+#footer  p{
     margin-top: 3px;
     color: rgb(197, 38, 38);
 }

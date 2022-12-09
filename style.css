@@ -493,7 +493,12 @@ body {
     border-radius: 5px;
     padding: 7px 20px;
     font-size: 0.9rem;
-
+ 
+    outline: none;
+    border: none;
+}
+.btnAllCategory p{
+    margin: 0 !important;
 }
 
 .categoryItem {
