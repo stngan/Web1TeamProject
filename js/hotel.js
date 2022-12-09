@@ -36,7 +36,7 @@ function load(){
              temp = temp.substring(0,45)+"..."
              html+=" <p class='card__content--desc'>"+temp+"</p>"
               html+= "<div class='card__content--hashtag'>"
-              html+= "<span>#Eat&Drink</span>";
+              html+= "<span>#Hotel</span>";
               let add = data[i].address.split(",");
               let tg = add[add.length-1];
               html+=  "<span class='card__content--add'>#"+tg+"</span>"
