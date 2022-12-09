@@ -28,10 +28,11 @@
       <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
       <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
       <link rel="stylesheet" href="/css/footer.css">
+      <script src="/js/logout.js" defer></script>
   
   
 </head>
-<body>
+<body onload="loadUser()"> 
     <nav class="navbarHeader">
         <div class="navbarHeader__left">
           <img src="/assets/image/logo.svg" alt="">
@@ -46,33 +47,79 @@
         </div>
         <div class="navbarHeader_right menu">
             <i class="bx bx-x sidebarClose"></i>
-              <ul class="menu-links">
-                <li>
-                    <a href="/index.html">
+             
+            <ul class="menu-links">
+                <li 
+                    data-aos="fade-left"
+                    data-aos-delay="0"
+                    data-aos-duration="500">
+                    <a style="color:#f5c909 ;" href="./index.html">
                         Home
                     </a>
                 </li>
-                <li>
-                    <a href="./aboutUS.html" >
+                <li 
+                    data-aos="fade-left"
+                    data-aos-delay="100"
+                    data-aos-duration="500">
+                    <a href="/includes/aboutUS.html">
                         About
                     </a>
                 </li>
-                <li>
-                    <a href="./support.html"  style="color:#f5c909;">
+                <li
+                    data-aos="fade-left"
+                    data-aos-delay="200"
+                    data-aos-duration="500">
+                    <a href="./includes/support.html">
                         Support
                     </a>
                 </li>
-                <li>
-                    <a href="./signup.html">
+                <li 
+                    data-aos="fade-left"
+                    data-aos-delay="300"
+                    data-aos-duration="500"
+                    >
+                    <a id="signUp" href="./signup.html">
                         Sign Up
                     </a>
                 </li>
-                <li>
-                    <a href="./login.html" class="btnLogin">
+               
+                <li
+                    data-aos="fade-left"
+                    data-aos-delay="400"
+                    data-aos-duration="500">
+                    <a href="./login.html" class="btnLogin" id="Login">
                         Log In
                     </a>
                 </li>
-              </ul>
+                <li data-aos="fade-left"
+                    data-aos-delay="400"
+                    data-aos-duration="500" id="acc">
+                    <a href="#" class="account" id="account">
+                        <img src="" alt="" id="accImg">
+                        <ul class="account_list">
+                            <li class="account_list-item">
+                                <Div class="account_icon--border"><i class="fa-solid fa-user account_icon"></i></Div>
+                                <Div class="account_mail">
+                                    <h3 id="account__user">Username</h3>
+                                    <p>Huy@gmail.com</p>
+                                </Div>
+                            </li>
+                            <li class="account_list-item"><button type="button" onclick="dieu_huong()">Show my wishlist</button></li>
+                            <li class="account_list-item"><button type="button" onclick="dieu_huong()">Show my account</button></li>
+                            <li class="account_logout"> <span onclick="logOut()">Log out</span>  </li>
+                        </ul>
+                    </a>
+                </li>
+                <li 
+                data-aos="fade-left"
+                data-aos-delay="300"
+                data-aos-duration="500"
+                >
+                <a onclick="logOut()" id="logOut" class="logOut" href="#">
+                    Log Out
+                </a>
+                </li>
+            </ul>
         </div>
     </nav>
 
