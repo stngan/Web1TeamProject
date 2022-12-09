@@ -182,6 +182,11 @@ body {
     padding: 8px 20px;
     margin-bottom: 5px ;
 }
+.menu-links li a:hover {
+    
+    color: var(--primary-color);
+ 
+}
 .mobile-nav-toggle {
     position: absolute;
     background-color: transparent;
