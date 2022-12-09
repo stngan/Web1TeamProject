@@ -90,19 +90,19 @@
       "rate": "1.5"
     },
     {
-      "Place_ID": 6,
-        "address_ID": 3,
-      "address": "10 Lê Quý Đôn, Phú Nhuận",
-      "Time": " 8:00-20:00",
-      "Min_cost": 50000,
+      "Place_ID": 5,
+        "address_ID": 2,
+      "address": "36Bis Huỳnh Khương Ninh, Dakao, Quận 1",
+      "Time": "18:00- 01:00",
+      "Min_cost": 300000,
       "Max_cost": 100000000,
-      "img": "E&D6.png",
-      "content": "Một chiếc quán trang trí giáng sinh đầu tiên của Sài Gòn mà bây giờ mới có dịp ghé thăm, Maison chưa bao giờ làm mình về Decor trang trí giáng sinh, Quán theo phong cách hơi cổ điển tạo nên cảm giác hơi ấm áp cho mùa đông lạnh lẽo này. Đặc biệt quán còn Setup 7749 góc sống ảo cho chị em.<br/> Về món nước ở đây cũng khá là đa dạng đặc biệt là các món đều được trang trí một cách khá là chỉnh chu lun. Quán đang có chương trình mua bánh và nước sẽ được tặng 1 gói bánh quy nha.",
-      "Description": "NHẮC TỚI GIÁNG SINH ĐÃ TỚI THÌ KHÔNG THỂ BỎ QUA MAISON RỒI",
-      "Author_user": "Kim Hoàng",
-      "Author_timeUpdate" : "8PM 1/12/2022",
-      "Author_avt": "KimHoang.jpg",
-      "rate": "1.5"
+      "img": "E&D5.png",
+      "content": " Vô tình biết đến Du Bar qua lời giới thiệu của người quen, mình ghé quán với hy vọng tìm được chốn dừng chân để gạt qua bộn bề lo toan thường nhật. Điều thu hút mình ở Du Bar là không gian trầm ấm và kín đáo, tạo cảm giác thư giãn nhẹ nhàng và tách biệt với thành phố bận rộn. Ngồi đây nhâm nhi chút rượu, trò chuyện vài ba câu với người bạn lâu ngày không gặp hay đơn giản là nghỉ ngơi, chiêm nghiệm đôi điều vẩn vơ cũng đủ tạo nên trải nghiệm lắng đọng cuối ngày.<br/> Đặc biệt nhất ở Du Bar chính là các loại đồ uống được pha chế rất chỉn chu và tinh tế. Mình được giới thiệu Signature của quán là 3 món lấy DNA từ 3 chai nước hoa Niche với các concept rất hay ho . Mỗi ly nước là một mùi vị độc đáo, riêng biệt và đượm hương thơm trầm bổng ứng với từng loại nước hoa: có ngọt ngào, có thanh mát và có cả nồng ấm. Vì vậy, nếu bạn muốn nếm thử mùi hương thông qua vị rượu đậm đà, Du Bar là một địa điểm bạn không nên bỏ qua. <br/> Vibe của quán hướng tới trải nghiệm cá nhân đặc trưng và đôi chút sâu lắng, thích hợp với những tâm trạng cần chút yên tĩnh và nghỉ ngơi. Tuy giá có hơi nhỉnh một xíu nhưng không gian, phục vụ và chất lượng đồ uống cực kỳ xứng đáng. <br/> Ghé Du Bar cho một cuối ngày thảnh thơi và nhẹ nhàng!",
+      "Description": "ĐẾN DU BAR, TRẢI NGHIỆM BAR MÙI HƯƠNG ĐỘC LẠ",
+      "Author_user": "Minh Hoài",
+      "Author_timeUpdate" : "6PM 7/12/2022",
+      "Author_avt": "MinhHoai.jpg",
+      "rate": "5"
     }
 ]
  

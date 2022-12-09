@@ -1,35 +1,59 @@
-// function load(){
-//     fetch("/Data/E&D.json")
-//     .then(function (res) {
-//       if (!res.ok) {
-//         throw Error("Http Error: ", res.status);
-//       }
-//       return res.json();
-//     })
-//     .then(function (data) {
-//       console.log(data);
-//     // for(let i = 0; i<= data.length; i++){
-//     //     let html="";
-//     //     // descr ============//
-//     //     html+= " <div class='card swiper-slide'>";
-//     //      html+="<div class='card__author'> " ;
-//     //      html+= " <div class='author-avatar'>" + "<img class='author-avatar-detail'"+ " src='"+ "/assets/admin/"+ "' alt=''>"
-//     //     html+=    
-//     //      "</div>";
-//     //    html +=
-//     //     "<div>" ;
-//     //     html+= "<div class='author-name'>" + data[i].Author_user+"</div>" ;
-//     //     html+= "<div class='time-create'>";
-//     //     html+= data[i].Author_timeUpdate 
-//     //     html+=  "</div>";
-//     //     html+= "</div>" ;
-//     //     html+="</div>" ;
-//     //     html+= "</div>";
-//     //     console.log(html);
-//     // }
-//     })
+function load(){
+    fetch("/Data/E&D.json")
+    .then(function (res) {
+      if (!res.ok) {
+        throw Error("Http Error: ", res.status);
+      }
+      return res.json();
+    })
+    .then(function (data) {
+      console.log(data[0].Author_user);
+      let html="";
+    for(let i = 0; i<= data.length-1; i++){
+        
+        // descr ============//
+        html+= " <div class='card swiper-slide'>";
+           html+="<div class='card__author'> " ;
+             html+= " <div class='author-avatar'>" + "<img class='author-avatar-detail'"+ " src='"+ "/assets/admin/"+data[i].Author_avt+ "' alt=''>"
+             html+=    
+            "</div>";
+            html +=
+            "<div>" ;
+               html+= "<div class='author-name'>" + data[i].   Author_user;html+="</div>" ;
+                html+= "<div class='time-create'>";
+                  html+= data[i].Author_timeUpdate 
+                html+=  "</div>";
+              html+= "</div>" ;
+              html+="</div>" ;
+                  html+= "<div class='card__image'>";
+                          html+="<img class='card__image--detail' src='/assets/E&D/"+ data[i].img+ "' alt='anh hư'>"
+              html+= "</div>"
 
-// }
+             html+="<div class='card__content'>";
+             html+=" <p class='card__content--title'>"+ data[i].Description+ "</p>";
+             let temp = data[i].content;
+             temp = temp.substring(0,45)+"..."
+             html+=" <p class='card__content--desc'>"+temp+"</p>"
+              html+= "<div class='card__content--hashtag'>"
+              html+= "<span>#Eat&Drink</span>";
+              let add = data[i].address.split(",");
+              let tg = add[add.length-1];
+              html+=  "<span class='card__content--add'>#"+tg+"</span>"
+              html+="</div>"
+              html+="<div class='author-rating'>"
+                  html+="<span class='Stars' style='--rating:"+data[i].rate+"'>"
+                html+=  "</span>"
+              html+= "</div>"  
+         html+= "</div>"
+
+        html+= "</div>";
+       
+    }
+    console.log(html);
+    document.getElementById("card-wrapper swiper-wrapper").innerHTML=html;
+    })
+
+}
 
 
     user = localStorage.getItem("user");
@@ -63,7 +87,6 @@
         //  document.getElementById("account__user").innerHTML = temp;
       } else{
       } 
-      console.log(data)
     })
 
 }
