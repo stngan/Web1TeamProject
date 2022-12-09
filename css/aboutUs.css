@@ -9,7 +9,7 @@
   min-height: 100vh;
   background-color: aqua;
 
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)), url(/assets/image/aboutusHeader.svg);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)), url(/assets/image/AbouUs.png);
   opacity: 0.9;
   background-position: center;
   background-size: cover;
