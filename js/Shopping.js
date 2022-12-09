@@ -1,5 +1,5 @@
 function load(){
-    fetch("/Data/E&D.json")
+    fetch("/Data/shopping.json")
     .then(function (res) {
       if (!res.ok) {
         throw Error("Http Error: ", res.status);
@@ -26,17 +26,18 @@ function load(){
               html+= "</div>" ;
               html+="</div>" ;
                   html+= "<div class='card__image'>";
-                          html+="<img class='card__image--detail' src='/assets/E&D/"+ data[i].img+ "' alt='anh hư'>"
+                          html+="<img class='card__image--detail' src='/assets/shopping/"+ data[i].img+ "' alt='anh hư'>"
               html+= "</div>"
-              let des = data[i].Description;
-              des = des.substring(0,40)+"...";
+
              html+="<div class='card__content'>";
-             html+=" <p class='card__content--title'>"+ des+ "</p>";
+             let des = data[i].Description;
+                des = des.substring(0,30)+"...";
+             html+=" <p class='card__content--title'>"+des+ "</p>";
              let temp = data[i].content;
              temp = temp.substring(0,45)+"..."
              html+=" <p class='card__content--desc'>"+temp+"</p>"
               html+= "<div class='card__content--hashtag'>"
-              html+= "<span>#Eat&Drink</span>";
+              html+= "<span>#Shopping</span>";
               let add = data[i].address.split(",");
               let tg = add[add.length-1];
               html+=  "<span class='card__content--add'>#"+tg+"</span>"
