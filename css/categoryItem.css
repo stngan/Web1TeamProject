@@ -320,9 +320,14 @@
 .categoryCardSection a {
   padding: 7px 20px;
   
-  border-radius: 5px;
+  /* border-radius: 5px; */
   font-size: 0.9rem;
   font-weight: 600;
+  text-decoration: underline !important;
+  
+}
+.categoryCardSection a:hover {
+ color: var(--navbtn-hover);
   
 }
 .eatdrink {
@@ -333,8 +338,8 @@
 }
 .eatdrink a {
   color: #960505;
-  background:#d4404033;
-  border: 1px solid #830d0d;
+  /* background:#d4404033;
+  border: 1px solid #830d0d; */
 }
 
 .shopping {
@@ -345,8 +350,8 @@
 }
 .shopping a {
   color: var(--shopping-primary-color);
-  background:var(--shopping-tag-bgcolor);
-  border: 1px solid var(--shopping-primary-color);
+  /* background:var(--shopping-tag-bgcolor);
+  border: 1px solid var(--shopping-primary-color); */
 }
 
 .categoryCardSection.shopping .card__content--hashtag span:first-child {
@@ -362,8 +367,8 @@
 }
 .hotel a {
   color: var(--hotel-tag-color);
-  background:var(--hotel-tag-bgcolor);
-  border: 1px solid var(--hotel-tag-color);
+  /* background:var(--hotel-tag-bgcolor);
+  border: 1px solid var(--hotel-tag-color); */
 }
 .hotel .card{
   border-top: 5px solid var(--hotel-primary-color);
