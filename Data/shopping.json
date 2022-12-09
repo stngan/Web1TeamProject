@@ -1,0 +1,94 @@
+[
+    {
+      "Place_ID": 1,
+        "address_ID": 1,
+      "address": "HCM 2: Central Market, opposite 98 Le Lai, D1",
+      "Time": "10:00-21:30 Hằng Ngày",
+      "Min_cost": 1000000,
+      "Max_cost": 100000000,
+      "img": "S1.jpg",
+      "content": " Nếu là một tín đồ cuồng shopping tại Sài Gòn, hẳn bạn sẽ biết đến The New Playground – một tổ hợp mua sắm dưới lòng đất 'độc nhất vô nhị'. Lần đầu tiên xuất hiện tại TP.HCM vào tháng 3/2017, nơi đây nhanh chóng thu hút sự quan tâm lớn của giới trẻ Sài thành vì sở hữu hàng loạt những local brands 'chất phát ngất' cùng không gian mua sắm độc lạ.",
+      "Description": "The New Playground khai trương khu mua sắm dưới lòng đất thứ 2 tại Sài Gòn, giới trẻ nhận xét: Mọi thứ đều “nhỉnh” hơn địa điểm cũ rất nhiều!",
+      "Author_user": "Kim Hoàng",
+      "Author_timeUpdate" : "8PM 5/12/2022",
+      "Author_avt": "KimHoang.jpg",
+      "rate": "3"
+    },
+    {
+      "Place_ID": 2,
+      "address_ID": 1,
+      "address": "Địa chỉ: 99 Nguyễn Huệ, Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",
+      "Time": "08:00-22:00 (T2-CN)",
+      "Min_cost": 50000,
+      "Max_cost": 70000,
+      "img": "S2.jpg",
+      "content": "Saigon Garden được mệnh danh là “ Khu phố ăn chơi sang chảnh ở Sài Gòn”. Với lối kiến trúc vô cùng độc đáo, đặc biệt gần gũi với thiên nhiên sẽ làm bạn vô cùng hài lòng khi đến đây. Trung tâm thương mại này không chỉ bào gồm những dịch vụ mua sắm và giải trí mà còn có cả hệ thống chăm sóc sức khỏe và sắc đẹp.",
+      "Author_user": "Duy Thành",
+      "Author_timeUpdate" : "7PM 4/12/2022",
+      "Author_avt": "DuyThanh.jpg",
+      "rate": "4"
+    },
+    {
+      "Place_ID": 3,
+        "address_ID": 2,
+      "address": "NVH Thanh Niên 4A Phạm Ngọc Thạch, Q1",
+      "Time": "8:OO - 22:3O, (CN)",
+      "Min_cost": 35000,
+      "Max_cost": 100000,
+      "img": "S3.jpg",
+      "content": " Đến hẹn lại lên, The Box Market lại mở nông trại mua sắm siêu toa khổng lồ nà mọi người ơiiiii  Sale quá trời sale luôn, Ai thích săn đồ độc lạ hay mấy hàng handmade thì mình highly recommend ở đây nha. Có free vẽ Henna, tết tóc Bohemian và Nail luôn á. Quá đãaaaa  Không gian khá bự, được decor theo kiểu nông trại nên sống ảo đã đời nha. Nghe nói cuối tuần sau 26,27,28/6 cũng có mở nữa á. Đặc biệt là có hát acoustic, đồ ăn ngon và checkin còn được nhận quà nữa đó",
+      "Description": "Set kèo đi nông trại The Box Market sale quá trời sale khủng đê",
+      "Author_user": "Tuyết Ngân",
+      "Author_timeUpdate" : "5PM 3/12/2022",
+      "Author_avt": "TuyetNgan.jpg",
+      "rate": "4"
+    },
+    {
+      "Place_ID": 4,
+        "address_ID": 2,
+      "address": "Sân Vận Động Hoa Lư, số 2 Đinh Tiên Hoàng, Q1 nhaaaaa",
+      "Time": "9:00-22:00, cuối tuần",
+      "Min_cost": 1000000,
+      "Max_cost": 100000000,
+      "img": "S4.jpg",
+      "content": "Hello Weekend Market quen mặt quá trời luôn rồi phở hôn Chắc mấy năm rồi, canh gần Tết là t toàn sắm đồ ở đây ko luôn á Đợt này quần áo, áo dài sale quá trời sale, chưa kể mấy chương trình Tết đã lắm mấy má.  Bữa t đi có ca sĩ Tăng Phúc hát nè, rồi thêm Lô Tô Show hơi bị dui nha. Chưa kể có hái lộc đầu xuân luôn, mấy lần trước là được quà các thứ thôi, lần này chơi lớn có xiền mặt thiệt nha hơi bị dữ dội kakakaka Mua sắm, ăn uống đã cái nư rồi thì tới tiết mục sống ảo nữa nha mụi người. Tết nên decor cũng hoành tá tràng lắm, ai có áo dài diện sương sương bộ hình ăn Tết cho có không khí là ngon lành 🤣 Lần này phiên chợ kéo dài hơn mọi lần, từ 2/2 tới 8/2 lận nên ai chưa kịp sắm đồ thì tranh thủ ghé chơi. Địa chỉ tại Sân Vận Động Hoa Lư, số 2 Đinh Tiên Hoàng, Q1 nhaaaaa 👍🏻👍🏻👍🏻",
+      "Description": "𝐓𝐞̂́𝐭 𝐝𝐢́ 𝐬𝐚́𝐭 𝐧𝐮́𝐭 𝐫𝐨̂̀𝐢 - Hello weekend day 𝐪𝐮𝐚́ 𝐭𝐫𝐨̛̀𝐢, 𝐬𝐚̆́𝐦 đ𝐨̂̀ 𝐥𝐞̣ 𝐥𝐞̣ 𝐦𝐚̂́𝐲 𝐦𝐚́ 𝐮̛𝐢𝐢𝐢𝐢",
+      "Author_user": "Hoàng Huy",
+      "Author_timeUpdate" : "10AM 5/12/2022",
+      "Author_avt": "HoangHuy.jpg",
+      "rate": "3.5"
+    },
+    {
+      "Place_ID": 5,
+        "address_ID": 2,
+      "address": "Thảo Cầm Viên Sài Gòn, Số 1 Bis Nguyễn Thị Minh Khai, Phường Bến Nghé, Quận 1, TP. HCM.",
+      "Time": "17:00- 22:00, mỗi ngày",
+      "Min_cost": 300000,
+      "Max_cost": 100000000,
+      "img": "S5.jpg",
+      "content": " Điều đầu tiên là tại Rubik Zoo bạn có thể vào cổng miễn phí hoàn toàn, trung tâm bắt đầu hoạt động từ 17h – 22h mỗi ngày, với khuôn viên rộng đến 5000m2 và hơn 300 gian hàng. Rubik Zoo hứa hẹn sẽ trở thành một trung tâm mua sắm, ẩm thực và giải trí không thể bỏ lỡ giành cho giới trẻ vào các ngày trong tuần thỏa sức khám phá và giải trí cùng với bạn bè và người thân trong gia đình.",
+      "Description": "Rubik Zoo – Lạc Lối Trong Khu Chợ Container Mới Toanh Tại Quận 1",
+      "Author_user": "Minh Hoài",
+      "Author_timeUpdate" : "6PM 7/12/2022",
+      "Author_avt": "MinhHoai.jpg",
+      "rate": "4"
+    },
+    {
+      "Place_ID": 6,
+        "address_ID": 3,
+      "address": " số 10/2 đường Quang Trung, Q. Gò Vấp",
+      "Time": " 8:00-20:00",
+      "Min_cost": 50000,
+      "Max_cost": 100000000,
+      "img": "S6.jpg",
+      "content": "Hôm nay mình giới thiệu đến mọi người khu chợ Hạnh Thông Tây nằm trên đường Quang Trung quận Gò Vấp, đối diện nhà thờ. Dạo một vòng các gian hàng lớn nhỏ ở đây đủ mọi mặt hàng từ quần áo, giày dép, đến trang sức, mỹ phẩm. Nói chung ở đây về thời trang hầu như rất đầy đủ và đa dạng với giá vô cùng rẻ.",
+      "Description": "Không khí nhộn nhịp ở chợ Hạnh Thông Tây quận Gò Vấp về đêm",
+      "Author_user": "Kim Hoàng",
+      "Author_timeUpdate" : "8PM 1/12/2022",
+      "Author_avt": "KimHoang.jpg",
+      "rate": "5"
+    }
+]
+ 
+ 
+

@@ -1,0 +1,95 @@
+[
+    {
+      "Place_ID": 1,
+        "address_ID": 1,
+      "address": "Tầng 2, số 25 Nguyễn Bỉnh Khiêm, Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",
+      "Time": "9:00 - 22:00",
+      "Min_cost": 35000,
+      "Max_cost": 600000,
+      "img": "adven1.jpg",
+      "content": "Quy trình làm nến thơm từ A tới Ă: Nấu sáp, đong tinh dầu, đo cắt bấc, pha trộn màu, tạo hình, trang trí… . Tự tay gói quà theo ý mong muốn để dành tặng thành phẩm cho người thân. Các bạn có thể tự tay làm chút quà ý nghĩa để tặng cho mọi người hoặc dành chút thời gian tự thưởng cho bản thân một ngày vui nhé.",
+      "Description": "Saigon Sniper ",
+      "Author_user": "Kim Hoàng",
+      "Author_timeUpdate" : "8PM 5/12/2022",
+      "Author_avt": "KimHoang.jpg",
+      "rate": "3.5"
+    },
+    {
+      "Place_ID": 2,
+      "address_ID": 1,
+      "address": "208 Nguyễn Hữu Cảnh, Phường 22, Bình Thạnh",
+      "Time": "8:30AM - 10PM",
+      "Min_cost": 150000,
+      "Max_cost": 880000,
+      "img": "adven2.jpg",
+      "content": "Mỗi người tham gia trò này sẽ được đeo một chiếc kính. Bên trong chiếc kính này sẽ đem đến cho bạn một không gian ảo nhưng cảm giác thật nhờ công nghệ và âm thanh hiện đại. Một trong những trò chơi được nhiều người lựa chọn nhất là trò nhảy dù ở độ cao hơn 400m và hóa thân thành anh hùng đi giải cứu thế giới.",
+      "Description": "VR TOP OF VIETNAM",
+      "Author_user": "Duy Thành",
+      "Author_timeUpdate" : "7PM 4/12/2022",
+      "Author_avt": "DuyThanh.jpg",
+      "rate": "4"
+    },
+    {
+      "Place_ID": 3,
+        "address_ID": 2,
+      "address": "188/1 Nguyễn Văn Hưởng, Thảo Điền, Quận 2",
+      "Time": "10AM - 10PM",
+      "Min_cost": 250000,
+      "Max_cost": 300000,
+      "img": "adven3.jpg",
+      "content": "Bên cạnh đó, những cây súng sơn tại đây đều vô cùng chất lượng. Bạn sẽ không phải mất hứng hay bị K.I.I.L một cách vô lý khi cây súng sươn bất ngờ bị nghẹt sơn. Những bộ đồ bảo hộ vừa đẹp mắt, vừa giúp bạn có được sự bảo vệ an toàn nhất khi chơi. ",
+      "Description": "LEO NÚI PUSH CLIMBING",
+      "Author_user": "Tuyết Ngân",
+      "Author_timeUpdate" : "5PM 3/12/2022",
+      "Author_avt": "TuyetNgan.jpg",
+      "rate": "4.5"
+    },
+    {
+      "Place_ID": 4,
+        "address_ID": 2,
+      "address": "35 Nguyễn Thị Minh Khai, Bến Nghé, Quận 3;",
+      "Time": "8AM - 9PM",
+      "Min_cost": 50000,
+      "Max_cost": 100000,
+      "img": "adven4.jpg",
+      "content": "Có thể nói đây là một trong những điểm học bắn cung ở Sài Gòn hiện đang thu hút đông đảo các bạn trẻ tham gia. Bắn cung là một trong những môn thể thao khá dễ chơi, bạn có thể rèn luyện khả năng tập trung, chuyên môn tĩnh, tính nhẫn nại và bạn sẽ cảm thấy mình trở nên khỏe mạnh hơn.",
+      "Description": "BẮN CUNG NHÀ VĂN HÓA THANH NIÊN",
+      "Author_user": "Hoàng Huy",
+      "Author_timeUpdate" : "10AM 5/12/2022",
+      "Author_avt": "HoangHuy.jpg",
+      "rate": "3"
+    },
+    {
+      "Place_ID": 5,
+        "address_ID": 2,
+      "address": "300 Lê Văn Lương, P. Tân Hưng, Quận 7",
+      "Time": "Từ thứ Hai - thứ Sáu: 9:00 - 17:00, Thứ Bảy - Chủ Nhật và ngày lễ: 9:00 - 19:00 ",
+      "Min_cost": 50000,
+      "Max_cost": 100000,
+      "img": "adven5.jpg",
+      "content": "Nằm ngay sau Lotte Mart Quận 7, chỉ cách quận 1 khoảng 10 phút chạy xe, Câu lạc bộ súng sơn Quận 7 là địa điểm lý tưởng dành cho những ai yêu thích trò chơi quân sự này. Tại đây, không gian chơi khá thoáng đãng và dã chiến, bố trí sa trường nhiều chướng ngại vật với nhiều địa hình khác nhau làm tăng thêm phần kịch tính, lôi cuốn người chơi, với những thùng gỗ nghiêng ngả, thùng phuy cũ cùng các chồng lốp xe, vết đạn loang lổ, lá cây rụng... tạo cho người chơi cảm giác căng thẳng như đang thực sự chiến đấu trên chiến trường thật sự.",
+      "Description": "CLB Súng Sơn Q.7 - Paintball Q7",
+      "Author_user": "Minh Hoài",
+      "Author_timeUpdate" : "6PM 7/12/2022",
+      "Author_avt": "MinhHoai.jpg",
+      "rate": "5"
+    },
+    {
+      "Place_ID": 6,
+        "address_ID": 3,
+      "address": " 33 Hoa Sứ, P.7, Q. Phú Nhuận, TP.Hồ Chí Minh",
+      "Time": "Từ thứ Hai - thứ Sáu: 8:00 - 12:00, Thứ Bảy - Chủ Nhật: 8:00 - 16:00",
+      "Min_cost": 15000,
+      "Max_cost": 45000,
+      "img": "adven6.jpg",
+      "content": "Với gói Workshop nến thơm này các bạn sẽ được giảng dạy chi tiết về công thức các loại mùi hương, pha màu. Sẽ đóng vai làm một người thợ đổ nến chuyên nghiệp như nhân viên tại First Sight. Tất cả sẽ bắt đầu từ những bước cơ bản nhất nên đảm bảo bạn sẽ có được những trải nghiệm thú vị trong 2 -3 tiếng của buổi Workshop nến thơm. Trải nghiệm đủ hơn 20 BST mùi hương First Sight đã soạn công thức sẵn. Ngoài ra các bạn có thể tự Test và Mix ra các mùi theo ý muốn.",
+      "Description": "Worskshop nến thơm handmade First Sight",
+      "Author_user": "Kim Hoàng",
+      "Author_timeUpdate" : "8PM 1/12/2022",
+      "Author_avt": "KimHoang.jpg",
+      "rate": "1.5"
+    }
+]
+ 
+ 
+

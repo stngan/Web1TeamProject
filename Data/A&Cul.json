@@ -1,0 +1,95 @@
+[
+    {
+      "Place_ID": 1,
+        "address_ID": 1,
+      "address": "Địa chỉ: 01 Công xã Paris, Phường Bến Nghé, Quận 1, Hồ Chí Minh",
+      "Time": "Thời gian: Đã đóng cửa (9:00 - 22:00)",
+      "Min_cost": 0,
+      "Max_cost": 100000,
+      "img": "a&C1.jpg",
+      "content": "Sau một buổi sáng no nê, có ăn có uống và tráng miệng đủ cả thì giờ mình bắt đầu khám phá Sài Gòn thôi. Địa điểm check-in Sài Gòn đầu tiên là Nhà thờ Đức Bà. Quá quen rồi đúng không? Đúng là chưa đến “nghía” qua Nhà thờ Đức Bà xem như bạn chưa đến Sài Gòn rồi. Do Nhà thờ Đức Bà đang được sửa chửa nên bạn chỉ có tham quan bên ngoài. Nhưng mình thấy dạo quanh khu vực này với những con đường đầy cây xanh thì cực kì thư giãn, nhất là vào ngày cuối tuần.",
+      "Description": " Nhà thờ Đức Bà – Biểu tượng cổ kính giữa đất Sài Thành hoa lệ",
+      "Author_user": "Kim Hoàng",
+      "Author_timeUpdate" : "8PM 5/12/2022",
+      "Author_avt": "KimHoang.jpg",
+      "rate": "3.5"
+    },
+    {
+      "Place_ID": 2,
+      "address_ID": 1,
+      "address": "Số 2 trên đường Quảng Trường Công xã Paris (Phường Bến Nghé, quận 1), Bưu điện Sài Gòn nằm ngay bên cạnh nhà thờ Đức Bà",
+      "Time": "06:00-22:00",
+      "Min_cost": 0,
+      "Max_cost": 70000,
+      "img": "a&C2.jpg",
+      "content": "Từ Nhà thờ Đức Bà nhìn sang kia đường Công xã Paris là bạn sẽ thấy một toà nhà màu vàng theo kiến trúc Pháp. Đây chính là Bưu điện Sài Gòn đó. Bưu điện có kiến trúc Pháp với mái vòm cao sang chảnh và kiến trúc đối xứng đẹp mắt. Không chỉ là nơi tham quan mà bưu điện vẫn còn hoạt động. Bạn có thể gửi thư tín, bưu phẩm tại đây như thường. Giá Ngay cạnh Bưu điện Thành phố chính là đường sách trên con đường Nguyễn Văn Bình. Theo mình thấy chọn địa điểm này làm đường sách là vô cùng hợp lý bởi con đường có hai hàng cây cao che bóng mát nên rất dễ chịu. Bạn muốn dạo phố, lượn lờ ở đây bao lâu cũng được. Bạn có thể tìm được tất tần tật các thể loại sách, truyện ở đây và có cả sách mới và sách cũ. Không chỉ vậy, tại đường sách còn bố trí rất nhiều băng ghế, hay hàng quán cho bạn ngồi nghỉ hay “ngâm cứu” những cuốn sách mới mua. ",
+      "Description": "Một thoáng Sài Gòn xưa khi ghé thăm Bưu Điện Thành Phố Hồ Chí Minh - Đường sách",
+      "Author_user": "Duy Thành",
+      "Author_timeUpdate" : "7PM 4/12/2022",
+      "Author_avt": "DuyThanh.jpg",
+      "rate": "4"
+    },
+    {
+      "Place_ID": 3,
+        "address_ID": 2,
+      "address": " hẻm 8A Thái Văn Lung hay 15B Lê Thánh Tôn (Quận 1)",
+      "Time": "8:OO - 22:3O",
+      "Min_cost": 35000,
+      "Max_cost": 100000,
+      "img": "a&C3.jpg",
+      "content": "Tin được không? Có một khu phố Nhật Bản thu nhỏ ngay giữa lòng Sài Gòn. Sở dĩ gọi là phố Nhật vì nơi đây rất đông quán xá của người Nhật mở ra và có tất cả các món ăn đặc trưng của Nhật Bản. Sài Gòn, địa điểm du lịch ở Sài Gòn Giữa lòng Sài Gòn lại có một khu phố Nhật chất đến thế. @Traveloka Golocal Phố Nhật nằm ở khu Lê Thánh Tôn – Thái Văn Lung. Để bắt đầu tham quan bạn có thể đi vào từ hẻm 8A Thái Văn Lung hay 15B Lê Thánh Tôn đều được cả. Bước vào khu phố này, bạn như bị lạc giữa Nhật Bản với những quán ăn, quán cà phê nhỏ phong cách rất “Nhật”. Khu phố này cũng không quá rộng lớn, bạn chỉ dạo qua 1-2 vòng là hết nhưng quán ăn thì nhiều vô số kể.",
+      "Description": "Khu phố Nhật Bản",
+      "Author_user": "Tuyết Ngân",
+      "Author_timeUpdate" : "5PM 3/12/2022",
+      "Author_avt": "TuyetNgan.jpg",
+      "rate": "4.5"
+    },
+    {
+      "Place_ID": 4,
+        "address_ID": 2,
+      "address": "Số 01 Nguyễn Tất Thành - phường 12 - quận 4 - Tp. Hồ Chí Minh;",
+      "Time": "Sáng: 7:30 - 11:30; - Chiều: 13:30 - 17:00;",
+      "Min_cost": 20000,
+      "Max_cost": 40000,
+      "img": "a&C4.jpg",
+      "content": "Bến Nhà Rồng là một trong những địa danh nổi tiếng, có ý nghĩa to lớn trong lịch sử Việt Nam. Chính tại nơi đây, Bác Hồ đã bắt đầu chuyến hành trình hơn 30 năm ra đi tìm đường cứu nước cho dân tộc. Trong Bến Nhà Rồng là bảo tàng lưu trữ nhiều tư liệu và hiện vật về cuộc đời, sự nghiệp cứu nước của chủ tịch Hồ Chí Minh. Ngoài ra, không gian bên trong Bến Nhà Rồng có tổng cộng 9 phòng trưng bày. Trong đó, có 6 phòng trưng bày các hiện vật, tư liệu và hình ảnh liên quan đến tiểu sử, sự nghiệp cách mạng của Bác Hồ. Ngoài 5 căn phòng trưng bày tư liệu và hiện vật của Bác Hồ, Bến Nhà Rồng còn dành riêng 1 phòng trưng bày tình cảm của Bác dành cho đồng bào và tình cảm nhân dân cả nước dành cho Bác. Hầu như khách du lịch nào bước chân vào căn phòng này cũng đều cảm động khi đọc những lời của Bác nhắn nhủ đồng bào cả nước. Bên cạnh 6 căn phòng trưng bày, Bến Nhà Rồng còn dành 3 căn phòng còn lại là nơi trưng bày các chuyên đề thời sự, chính trị trong từng khoảng thời gian nhất định.",
+      "Description": "Tham quan bến Nhà Rồng - nơi Bác ra đi tìm đường cứu nước",
+      "Author_user": "Hoàng Huy",
+      "Author_timeUpdate" : "10AM 5/12/2022",
+      "Author_avt": "HoangHuy.jpg",
+      "rate": "3"
+    },
+    {
+      "Place_ID": 5,
+        "address_ID": 2,
+      "address": "số 02 - 04 đường số 9, khu dân cư Him Lam, phường Tân Hưng, quận 7",
+      "Time": "Từ thứ Hai - thứ Sáu: 9:00 - 17:00, Thứ Bảy - Chủ Nhật và ngày lễ: 9:00 - 19:00 ",
+      "Min_cost": 150000,
+      "Max_cost": 250000,
+      "img": "a&C5.jpg",
+      "content": "Nghệ thuật sẽ sống động hơn bao giờ nếu bạn đến Bảo tàng Nghệ thuật 3D Artinus tại Quận 7. Không gian bên trong tạo tác dựa theo nguyên tắc phối cảnh, các bức tường và nền nhà được bao phủ từ trên xuống dưới bằng hình ảnh sống động. Phong cảnh tái hiện như Ai Cập cổ đại và phục hưng hoặc thiên nhiên hoang dã và đại dương bao la được vẽ trong những căn phòng rộng lớn. Giữa bảo tàng là tranh vẽ độc đáo về Việt Nam qua hình ảnh ruộng bậc thang, vịnh, sông và danh thắng.",
+      "Description": "Sống động Bảo tàng nghệ thuật 3D Artinus",
+      "Author_user": "Minh Hoài",
+      "Author_timeUpdate" : "6PM 7/12/2022",
+      "Author_avt": "MinhHoai.jpg",
+      "rate": "5"
+    },
+    {
+      "Place_ID": 6,
+        "address_ID": 3,
+      "address": " 135 Đ. Nam Kỳ Khởi Nghĩa, Phường Bến Thành, Quận 1, Thành phố Hồ Chí Minh",
+      "Time": "Từ thứ Hai - thứ Sáu: 8:00 - 12:00, Thứ Bảy - Chủ Nhật: 8:00 - 16:00",
+      "Min_cost": 15000,
+      "Max_cost": 45000,
+      "img": "a&C6.jpg",
+      "content": "Dinh Độc Lập hay còn gọi là Dinh Thống Nhất được Nhà nước công nhận là di tích quốc gia hạng đặc biệt. Sống ở Sài Gòn hơn 20 năm, cũng đã đi ngang qua đây hàng trăm lần, nhưng đây là lần đầu mình vào tham quan Dinh Độc Lập. Và mình rất bất ngờ về kiến trúc và cách sắp xếp từng phòng cực kỳ ấn tượng 💓",
+      "Description": "𝓓𝓲𝓷𝓱 Đ𝓸̣̂𝓬 𝓛𝓪̣̂𝓹 🇻🇳",
+      "Author_user": "Kim Hoàng",
+      "Author_timeUpdate" : "8PM 1/12/2022",
+      "Author_avt": "KimHoang.jpg",
+      "rate": "1.5"
+    }
+]
+ 
+ 
+
