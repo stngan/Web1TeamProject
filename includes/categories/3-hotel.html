@@ -17,12 +17,12 @@
     <link rel="stylesheet" href="/css/swiper-bundle.min.css">
     <script src="/js/swiper-bundle.min.js" defer></script>
     <script src="/js/swiper.js" defer></script>
-    <script src="/js/eatDrink.js" defer></script>
+    <script src="/js/hotel.js" defer></script>
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
-<body onload="load()">
+<body onload="load(), loadUser()">
 
     <nav class="navbarHeader" >
         <div class="navbarHeader__left">
@@ -374,189 +374,13 @@
            
 
             <div class="card-wrapper swiper-wrapper">
-                <div class="card-wrapper swiper-wrapper">
+                <div class="card-wrapper swiper-wrapper" id="card-wrapper swiper-wrapper">
 
-                    <div class="card swiper-slide">
-                        <div class="card__author">
-                            <div class="author-avatar">
-                                <img class="author-avatar-detail" src="./assets/avt2.jpg" alt="">
-                            </div>
-                            <div>
-                                <div class="author-name">Song Ngân</div>
-                                <div class="time-create">
-                                    8PM 5/12/2022
-                                </div>
-                            </div>
-                        </div>
-    
-                        <div class="card__image">
-                            <img class="card__image--detail" src="" alt="anh hư">
-                        </div>
-    
-                        <div class="card__content">
-                            <p class="card__content--title">Worskshop nến thơm First Sight</p>
-                            <p class="card__content--desc">Với gói Workshop nến thơm này các bạn sẽ được giảng dạy chi tiết về công thức các loại mùi hương, pha màu. Sẽ đóng vai làm một người thợ đổ nến chuyên nghiệp như nhân viên tại First Sight.</p>
-                            <div class="card__content--hashtag">
-                                <span>#Eat&Drink</span>
-                                <span class="card__content--add">#Q.Phú Nhuận</span>
-                            </div>
-                            <div class="author-rating">
-                                <span class="Stars" style="--rating: 4.5;">
-                                </span>
-                            </div>  
-                        </div>
-                    </div>
-
-                    <div class="card swiper-slide">
-                        <div class="card__author">
-                            <div class="author-avatar">
-                                <img class="author-avatar-detail" src="./assets/avt2.jpg" alt="">
-                            </div>
-                            <div>
-                                <div class="author-name">Song Ngân</div>
-                                <div class="time-create">
-                                    8PM 5/12/2022
-                                </div>
-                            </div>
-                        </div>
-    
-                        <div class="card__image">
-                            <img class="card__image--detail" src="" alt="anh hư">
-                        </div>
-    
-                        <div class="card__content">
-                            <p class="card__content--title">Worskshop nến thơm First Sight</p>
-                            <p class="card__content--desc">Với gói Workshop nến thơm này các bạn sẽ được giảng dạy chi tiết về công thức các loại mùi hương, pha màu. Sẽ đóng vai làm một người thợ đổ nến chuyên nghiệp như nhân viên tại First Sight.</p>
-                            <div class="card__content--hashtag">
-                                <span>#Eat&Drink</span>
-                                <span class="card__content--add">#Q.Phú Nhuận</span>
-                            </div>
-                            <div class="author-rating">
-                                <span class="Stars" style="--rating: 4.5;">
-                                </span>
-                            </div>  
-                        </div>
-                    </div>
-                    <div class="card swiper-slide">
-                        <div class="card__author">
-                            <div class="author-avatar">
-                                <img class="author-avatar-detail" src="./assets/avt2.jpg" alt="">
-                            </div>
-                            <div>
-                                <div class="author-name">Song Ngân</div>
-                                <div class="time-create">
-                                    8PM 5/12/2022
-                                </div>
-                            </div>
-                        </div>
-    
-                        <div class="card__image">
-                            <img class="card__image--detail" src="" alt="anh hư">
-                        </div>
-    
-                        <div class="card__content">
-                            <p class="card__content--title">Worskshop nến thơm First Sight</p>
-                            <p class="card__content--desc">Với gói Workshop nến thơm này các bạn sẽ được giảng dạy chi tiết về công thức các loại mùi hương, pha màu. Sẽ đóng vai làm một người thợ đổ nến chuyên nghiệp như nhân viên tại First Sight.</p>
-                            <div class="card__content--hashtag">
-                                <span>#Eat&Drink</span>
-                                <span class="card__content--add">#Q.Phú Nhuận</span>
-                            </div>
-                            <div class="author-rating">
-                                <span class="Stars" style="--rating: 4.5;">
-                                </span>
-                            </div>  
-                        </div>
-                    </div>
-                    <div class="card swiper-slide">
-                        <div class="card__author">
-                            <div class="author-avatar">
-                                <img class="author-avatar-detail" src="./assets/avt2.jpg" alt="">
-                            </div>
-                            <div>
-                                <div class="author-name">Song Ngân</div>
-                                <div class="time-create">
-                                    8PM 5/12/2022
-                                </div>
-                            </div>
-                        </div>
-    
-                        <div class="card__image">
-                            <img class="card__image--detail" src="" alt="anh hư">
-                        </div>
-    
-                        <div class="card__content">
-                            <p class="card__content--title">Worskshop nến thơm First Sight</p>
-                            <p class="card__content--desc">Với gói Workshop nến thơm này các bạn sẽ được giảng dạy chi tiết về công thức các loại mùi hương, pha màu. Sẽ đóng vai làm một người thợ đổ nến chuyên nghiệp như nhân viên tại First Sight.</p>
-                            <div class="card__content--hashtag">
-                                <span>#Eat&Drink</span>
-                                <span class="card__content--add">#Q.Phú Nhuận</span>
-                            </div>
-                            <div class="author-rating">
-                                <span class="Stars" style="--rating: 4.5;">
-                                </span>
-                            </div>  
-                        </div>
-                    </div>
-                    <div class="card swiper-slide">
-                        <div class="card__author">
-                            <div class="author-avatar">
-                                <img class="author-avatar-detail" src="./assets/avt2.jpg" alt="">
-                            </div>
-                            <div>
-                                <div class="author-name">Song Ngân</div>
-                                <div class="time-create">
-                                    8PM 5/12/2022
-                                </div>
-                            </div>
-                        </div>
-    
-                        <div class="card__image">
-                            <img class="card__image--detail" src="" alt="anh hư">
-                        </div>
-    
-                        <div class="card__content">
-                            <p class="card__content--title">Worskshop nến thơm First Sight</p>
-                            <p class="card__content--desc">Với gói Workshop nến thơm này các bạn sẽ được giảng dạy chi tiết về công thức các loại mùi hương, pha màu. Sẽ đóng vai làm một người thợ đổ nến chuyên nghiệp như nhân viên tại First Sight.</p>
-                            <div class="card__content--hashtag">
-                                <span>#Eat&Drink</span>
-                                <span class="card__content--add">#Q.Phú Nhuận</span>
-                            </div>
-                            <div class="author-rating">
-                                <span class="Stars" style="--rating: 4.5;">
-                                </span>
-                            </div>  
-                        </div>
-                    </div>
-                    <div class="card swiper-slide">
-                        <div class="card__author">
-                            <div class="author-avatar">
-                                <img class="author-avatar-detail" src="./assets/avt2.jpg" alt="">
-                            </div>
-                            <div>
-                                <div class="author-name">Song Ngân</div>
-                                <div class="time-create">
-                                    8PM 5/12/2022
-                                </div>
-                            </div>
-                        </div>
-    
-                        <div class="card__image">
-                            <img class="card__image--detail" src="" alt="anh hư">
-                        </div>
-    
-                        <div class="card__content">
-                            <p class="card__content--title">Worskshop nến thơm First Sight</p>
-                            <p class="card__content--desc">Với gói Workshop nến thơm này các bạn sẽ được giảng dạy chi tiết về công thức các loại mùi hương, pha màu. Sẽ đóng vai làm một người thợ đổ nến chuyên nghiệp như nhân viên tại First Sight.</p>
-                            <div class="card__content--hashtag">
-                                <span>#Eat&Drink</span>
-                                <span class="card__content--add">#Q.Phú Nhuận</span>
-                            </div>
-                            <div class="author-rating">
-                                <span class="Stars" style="--rating: 4.5;">
-                                </span>
-                            </div>  
-                        </div>
-                    </div>
+                   
+                  
+                   
+                    
+                   
                    
                 </div>
 
