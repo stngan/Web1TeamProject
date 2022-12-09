@@ -29,7 +29,7 @@
 
 
   </head>
-  <body>
+  <body onload="load()">
     
 
     <nav class="navbarHeader">
@@ -47,31 +47,65 @@
       <div class="navbarHeader_right menu">
           <i class="bx bx-x sidebarClose"></i>
             <ul class="menu-links">
-              <li>
-                  <a href="/index.html">
-                      Home
-                  </a>
-              </li>
-              <li>
-                  <a href="/index.html" style="color:#f5c909;">
-                      About
-                  </a>
-              </li>
-              <li>
-                  <a href="./support.html"">
-                      Support
-                  </a>
-              </li>
-              <li>
-                  <a href="./signup.html">
-                      Sign Up
-                  </a>
-              </li>
-              <li>
-                  <a href="./login.html" class="btnLogin">
-                      Log In
-                  </a>
-              </li>
+              <ul class="menu-links">
+                <li 
+                    data-aos="fade-left"
+                    data-aos-delay="0"
+                    data-aos-duration="500">
+                    <a style="color:#f5c909 ;" href="/index.html">
+                        Home
+                    </a>
+                </li>
+                <li 
+                    data-aos="fade-left"
+                    data-aos-delay="100"
+                    data-aos-duration="500">
+                    <a href="/includes/aboutUS.html">
+                        About
+                    </a>
+                </li>
+                <li
+                    data-aos="fade-left"
+                    data-aos-delay="200"
+                    data-aos-duration="500">
+                    <a href="/includes/support.html">
+                        Support
+                    </a>
+                </li>
+                <li 
+                    data-aos="fade-left"
+                    data-aos-delay="300"
+                    data-aos-duration="500"
+                    >
+                    <a id="signUp" href="/includes/signup.html">
+                        Sign Up
+                    </a>
+                </li>
+               
+                <li
+                    data-aos="fade-left"
+                    data-aos-delay="400"
+                    data-aos-duration="500">
+                    <a href="/includes/login.html" class="btnLogin" id="Login">
+                        Log In
+                    </a>
+                </li>
+                <li data-aos="fade-left"
+                    data-aos-delay="400"
+                    data-aos-duration="500" id="acc">
+                    <a href="#" class="account" id="account">
+                        <img src="" alt="" id="accImg">
+                    </a>
+                </li>
+                <li 
+                data-aos="fade-left"
+                data-aos-delay="300"
+                data-aos-duration="500"
+                >
+                <a onclick="logOut()" id="logOut" class="logOut" href="#">
+                    Log Out
+                </a>
+            </li>
             </ul>
       </div>
     </nav>
@@ -183,6 +217,6 @@
         </div>
     </section>
   </div>
- 
+  <script src="/js/about.js" defer></script>
   </body>
 </html>
